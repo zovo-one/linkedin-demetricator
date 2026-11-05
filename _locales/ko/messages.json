@@ -1,0 +1,55 @@
+{
+  "extName": {
+    "message": "LinkedIn Demetricator — 카운트 및 배지 숨기기",
+    "description": "Extension name"
+  },
+  "extDesc": {
+    "message": "LinkedIn 배지, 반응 수, 팔로워 수, \"나를 본 사람\"을 숨깁니다. 순수 CSS, 100% 로컬 실행, 데이터를 어디에도 전송하지 않습니다.",
+    "description": "Extension description"
+  },
+  "focusMode": {
+    "message": "집중 모드"
+  },
+  "focusModeSub": {
+    "message": "피드만. 방해 요소 없음."
+  },
+  "hideBadges": {
+    "message": "알림 배지"
+  },
+  "hideReactions": {
+    "message": "반응 수"
+  },
+  "hideComments": {
+    "message": "댓글 수"
+  },
+  "hideReposts": {
+    "message": "재게시 수"
+  },
+  "hideCounts": {
+    "message": "팔로워 및 인맥 총합"
+  },
+  "hideViewed": {
+    "message": "내 프로필을 본 사람"
+  },
+  "hideSuggestions": {
+    "message": "알 수도 있는 사람"
+  },
+  "hideTrending": {
+    "message": "트렌드 콘텐츠"
+  },
+  "scheduledFocus": {
+    "message": "예약 집중"
+  },
+  "customSelector": {
+    "message": "사용자 지정 선택자 숨기기"
+  },
+  "syncToggles": {
+    "message": "기기 간 동기화"
+  },
+  "advancedGrayscale": {
+    "message": "고급 어둡기 및 밝기"
+  },
+  "upgradePro": {
+    "message": "Pro로 업그레이드"
+  }
+}

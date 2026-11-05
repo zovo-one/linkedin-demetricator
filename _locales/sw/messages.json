@@ -1,0 +1,55 @@
+{
+  "extName": {
+    "message": "LinkedIn Demetricator — Ficha Hesabu na Beji",
+    "description": "Extension name"
+  },
+  "extDesc": {
+    "message": "Ficha beji za LinkedIn, hesabu za miitikio, jumla za wafuasi na \"nani alikutazama\". CSS safi, 100% ya ndani, bila kutuma data.",
+    "description": "Extension description"
+  },
+  "focusMode": {
+    "message": "Hali ya Umakini"
+  },
+  "focusModeSub": {
+    "message": "Mlisho tu. Hakuna vikwazo."
+  },
+  "hideBadges": {
+    "message": "Beji za arifa"
+  },
+  "hideReactions": {
+    "message": "Hesabu za miitikio"
+  },
+  "hideComments": {
+    "message": "Hesabu za maoni"
+  },
+  "hideReposts": {
+    "message": "Hesabu za kuchapisha upya"
+  },
+  "hideCounts": {
+    "message": "Jumla ya wafuasi na miunganisho"
+  },
+  "hideViewed": {
+    "message": "Nani aliyetazama wasifu wako"
+  },
+  "hideSuggestions": {
+    "message": "Watu unaoweza kuwafahamu"
+  },
+  "hideTrending": {
+    "message": "Maudhui yanayovuma"
+  },
+  "scheduledFocus": {
+    "message": "Umakini uliopangwa"
+  },
+  "customSelector": {
+    "message": "Kuficha kwa kiteuzi maalum"
+  },
+  "syncToggles": {
+    "message": "Sawazisha kwenye vifaa"
+  },
+  "advancedGrayscale": {
+    "message": "Kufifisha na mwangaza wa hali ya juu"
+  },
+  "upgradePro": {
+    "message": "Pandisha hadi Pro"
+  }
+}

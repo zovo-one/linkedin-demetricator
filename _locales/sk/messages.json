@@ -1,0 +1,55 @@
+{
+  "extName": {
+    "message": "LinkedIn Demetricator — skryť počty a odznaky",
+    "description": "Extension name"
+  },
+  "extDesc": {
+    "message": "Skryte odznaky, počty reakcií, počet sledujúcich a „kto si zobrazil váš profil“ na LinkedIn. Čisté CSS, 100% lokálne.",
+    "description": "Extension description"
+  },
+  "focusMode": {
+    "message": "Režim sústredenia"
+  },
+  "focusModeSub": {
+    "message": "Iba informačný kanál. Žiadne rozptýlenie."
+  },
+  "hideBadges": {
+    "message": "Odznaky upozornení"
+  },
+  "hideReactions": {
+    "message": "Počty reakcií"
+  },
+  "hideComments": {
+    "message": "Počty komentárov"
+  },
+  "hideReposts": {
+    "message": "Počty zdieľaní"
+  },
+  "hideCounts": {
+    "message": "Celkový počet sledujúcich a spojení"
+  },
+  "hideViewed": {
+    "message": "Kto si zobrazil váš profil"
+  },
+  "hideSuggestions": {
+    "message": "Ľudia, ktorých možno poznáte"
+  },
+  "hideTrending": {
+    "message": "Populárny obsah"
+  },
+  "scheduledFocus": {
+    "message": "Naplánované sústredenie"
+  },
+  "customSelector": {
+    "message": "Skrytie vlastným selektorom"
+  },
+  "syncToggles": {
+    "message": "Synchronizácia medzi zariadeniami"
+  },
+  "advancedGrayscale": {
+    "message": "Pokročilé stlmenie a jas"
+  },
+  "upgradePro": {
+    "message": "Prejsť na Pro"
+  }
+}

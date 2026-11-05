@@ -1,0 +1,55 @@
+{
+  "extName": {
+    "message": "LinkedIn Demetricator — Peida arvud ja märgid",
+    "description": "Extension name"
+  },
+  "extDesc": {
+    "message": "Peida LinkedIni märgid, reaktsioonide arvud, jälgijate arvud ja „kes sind vaatas“. Puhas CSS, 100% lokaalne, andmeid ei saadeta.",
+    "description": "Extension description"
+  },
+  "focusMode": {
+    "message": "Keskendumisrežiim"
+  },
+  "focusModeSub": {
+    "message": "Ainult voog. Segajateta."
+  },
+  "hideBadges": {
+    "message": "Teavitusmärgid"
+  },
+  "hideReactions": {
+    "message": "Reaktsioonide arvud"
+  },
+  "hideComments": {
+    "message": "Kommentaaride arvud"
+  },
+  "hideReposts": {
+    "message": "Jagamiste arvud"
+  },
+  "hideCounts": {
+    "message": "Jälgijate & kontaktide kogusummad"
+  },
+  "hideViewed": {
+    "message": "Kes sinu profiili vaatas"
+  },
+  "hideSuggestions": {
+    "message": "Inimesed, keda võid tunda"
+  },
+  "hideTrending": {
+    "message": "Trendikas sisu"
+  },
+  "scheduledFocus": {
+    "message": "Ajastatud keskendumine"
+  },
+  "customSelector": {
+    "message": "Kohandatud selektori peitmine"
+  },
+  "syncToggles": {
+    "message": "Sünkroonimine seadmete vahel"
+  },
+  "advancedGrayscale": {
+    "message": "Täpsem tumendus & heledus"
+  },
+  "upgradePro": {
+    "message": "Uuenda Pro-le"
+  }
+}

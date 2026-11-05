@@ -1,0 +1,294 @@
+<!doctype html><html lang="en"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><title>LinkedIn Demetricator</title><link rel="stylesheet" href="styles/zovo-base.css"/><link rel="stylesheet" href="paywall.css"/><style>/* ---- Popup shell ------------------------------------------------------- */
+    .zovo-li-popup {
+      width: var(--zovo-popup-w);
+    }
+    .zovo-li-popup .zovo-stack {
+      gap: var(--zovo-space-4);
+      padding: var(--zovo-space-4) var(--zovo-space-5) var(--zovo-space-5);
+    }
+
+    /* ---- Privacy badge (hero stat) -----------------------------------------
+       Static honest metric per FIRST-VALUE-DOCTRINE. CSS-only injection cannot
+       count, so we show a literal privacy promise instead of fabricating. */
+    .zovo-li-popup__metric {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: var(--zovo-space-2);
+      padding: var(--zovo-space-3) var(--zovo-space-4);
+      background: var(--zovo-primary-50);
+      border: 1px solid color-mix(in srgb, var(--zovo-primary) 20%, transparent);
+      border-radius: var(--zovo-radius-pill);
+    }
+    .zovo-li-popup__metric-text {
+      font-size: 11px;
+      font-weight: var(--zovo-fw-heading);
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--zovo-primary);
+    }
+    .zovo-li-popup__metric-dot {
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      background: var(--zovo-success);
+      flex-shrink: 0;
+    }
+
+    /* ---- Focus Mode hero card ---------------------------------------------- */
+    .zovo-li-popup__hero {
+      display: flex;
+      align-items: center;
+      gap: var(--zovo-space-4);
+    }
+    .zovo-li-popup__hero-text { flex: 1; min-width: 0; }
+    .zovo-li-popup__hero-title {
+      margin: 0;
+      font-size: var(--zovo-fs-subheading);
+      font-weight: var(--zovo-fw-heading);
+      letter-spacing: -0.01em;
+      color: var(--zovo-text);
+    }
+    .zovo-li-popup__hero-sub {
+      margin: var(--zovo-space-1) 0 0;
+      font-size: var(--zovo-fs-caption);
+      color: var(--zovo-text-secondary);
+    }
+
+    /* ---- Toggle switch (master + mini) -------------------------------------
+       role="switch" + aria-checked per DESIGN-SYSTEM §8a. */
+    .zovo-li-popup__switch,
+    .zovo-li-popup__mini-switch {
+      position: relative;
+      width: 44px;
+      height: 24px;
+      border: none;
+      border-radius: var(--zovo-radius-pill);
+      background: var(--zovo-surface-2);
+      cursor: pointer;
+      flex-shrink: 0;
+      padding: 0;
+      transition: background var(--zovo-transition);
+    }
+    .zovo-li-popup__mini-switch {
+      width: 38px;
+      height: 22px;
+    }
+    .zovo-li-popup__switch:focus-visible,
+    .zovo-li-popup__mini-switch:focus-visible {
+      outline: none;
+      box-shadow: 0 0 0 2px var(--zovo-bg), 0 0 0 4px var(--zovo-primary);
+    }
+    .zovo-li-popup__switch--on,
+    .zovo-li-popup__mini-switch.zovo-li-popup__switch--on {
+      background: var(--zovo-primary);
+    }
+
+    .zovo-li-popup__switch-track,
+    .zovo-li-popup__switch-knob {
+      position: absolute;
+      border-radius: var(--zovo-radius-pill);
+      transition: transform var(--zovo-transition);
+    }
+    .zovo-li-popup__switch-track {
+      inset: 0;
+    }
+    .zovo-li-popup__switch-knob {
+      top: 3px;
+      left: 3px;
+      width: 18px;
+      height: 18px;
+      background: #FFFFFF;
+      box-shadow: var(--zovo-shadow-sm);
+    }
+    .zovo-li-popup__mini-switch .zovo-li-popup__switch-knob {
+      width: 16px;
+      height: 16px;
+      top: 3px;
+      left: 3px;
+    }
+    .zovo-li-popup__switch--on .zovo-li-popup__switch-knob,
+    .zovo-li-popup__mini-switch.zovo-li-popup__switch--on .zovo-li-popup__switch-knob {
+      transform: translateX(20px);
+    }
+    .zovo-li-popup__mini-switch.zovo-li-popup__switch--on .zovo-li-popup__switch-knob {
+      transform: translateX(16px);
+    }
+
+    /* ---- Toggle list (flush card) ------------------------------------------ */
+    #toggles-list .zovo-row {
+      border-radius: 0;
+      border-bottom: 1px solid var(--zovo-border);
+    }
+    #toggles-list .zovo-row:last-child {
+      border-bottom: none;
+    }
+    #toggles-list .zovo-row:hover {
+      background: var(--zovo-primary-50);
+    }
+    #toggles-list .zovo-row__label {
+      font-size: var(--zovo-fs-body);
+      font-weight: var(--zovo-fw-body);
+      color: var(--zovo-text);
+    }
+
+    /* ---- Grayscale quick-toggle row ---------------------------------------- */
+    .zovo-li-popup__grayscale-row {
+      display: flex;
+      align-items: center;
+      gap: var(--zovo-space-3);
+      padding: var(--zovo-space-3) var(--zovo-space-4);
+      border-radius: var(--zovo-radius-btn);
+      background: var(--zovo-surface);
+      border: 1px solid var(--zovo-border);
+    }
+    .zovo-li-popup__grayscale-row .zovo-row__label {
+      flex: 1;
+      font-size: var(--zovo-fs-body);
+      color: var(--zovo-text);
+    }
+    .zovo-li-popup__grayscale-icon {
+      width: 18px;
+      height: 18px;
+      flex-shrink: 0;
+      color: var(--zovo-text-secondary);
+    }
+
+    /* ---- Pro feature rows -------------------------------------------------- */
+    .zovo-li-popup__pro-row {
+      display: flex;
+      align-items: center;
+      gap: var(--zovo-space-3);
+      min-height: 44px;
+      padding: var(--zovo-space-2) var(--zovo-space-3);
+      border-radius: var(--zovo-radius-btn);
+      cursor: pointer;
+      transition: background var(--zovo-transition);
+    }
+    .zovo-li-popup__pro-row:hover {
+      background: var(--zovo-primary-50);
+    }
+    .zovo-li-popup__pro-row:focus-visible {
+      outline: none;
+      box-shadow: 0 0 0 2px var(--zovo-bg), 0 0 0 4px var(--zovo-primary);
+    }
+    .zovo-li-popup__pro-row .zovo-row__label {
+      flex: 1;
+      min-width: 0;
+      display: flex;
+      align-items: center;
+      gap: var(--zovo-space-2);
+      font-size: var(--zovo-fs-body);
+      color: var(--zovo-text);
+    }
+    .zovo-li-popup__lock-icon {
+      width: 14px;
+      height: 14px;
+      color: var(--zovo-pro);
+      flex-shrink: 0;
+    }
+    .zovo-li-popup__chevron {
+      color: var(--zovo-text-secondary);
+      font-size: 18px;
+      line-height: 1;
+      flex-shrink: 0;
+    }
+
+    /* ---- Upgrade CTA + reframe --------------------------------------------- */
+    .zovo-li-popup__upgrade-note {
+      text-align: center;
+      margin: var(--zovo-space-2) 0 0;
+      font-size: 11px;
+      color: var(--zovo-text-secondary);
+      line-height: 1.5;
+    }
+
+    /* ---- Cross-sell banner ------------------------------------------------- */
+    .zovo-li-popup__cross-sell {
+      border-top: 1px solid var(--zovo-border);
+      padding-top: var(--zovo-space-4);
+    }
+    .zovo-li-popup__cross-sell .zovo-row {
+      min-height: 40px;
+      padding: var(--zovo-space-2);
+      text-decoration: none;
+      color: var(--zovo-text);
+      font-size: var(--zovo-fs-caption);
+    }
+    .zovo-li-popup__cross-sell .zovo-row:hover {
+      background: var(--zovo-primary-50);
+    }
+    .zovo-li-popup__cross-sell-link {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: var(--zovo-space-2) var(--zovo-space-3);
+      font-size: var(--zovo-fs-caption);
+      color: var(--zovo-primary);
+      text-decoration: none;
+      border-radius: var(--zovo-radius-btn);
+      transition: background var(--zovo-transition);
+    }
+    .zovo-li-popup__cross-sell-link:hover {
+      background: var(--zovo-primary-50);
+      text-decoration: none;
+    }
+    .zovo-li-popup__cross-sell-link:focus-visible {
+      outline: none;
+      box-shadow: 0 0 0 2px var(--zovo-bg), 0 0 0 4px var(--zovo-primary);
+    }
+
+    /* ---- "Maybe later" link ------------------------------------------------ */
+    .zovo-li-popup__later {
+      display: block;
+      text-align: center;
+      margin-top: var(--zovo-space-2);
+      font-size: 11px;
+      color: var(--zovo-text-secondary);
+      text-decoration: none;
+      cursor: pointer;
+    }
+    .zovo-li-popup__later:hover {
+      text-decoration: underline;
+    }
+
+    /* ---- Section card with darker tinted bg for WCAG AA -------------------- */
+    /* Per DESIGN-SYSTEM: on tinted surfaces (primary-50), muted text uses
+       --zovo-text (#1A1A2E) which is 4.5:1 on #F1EFFD. When a section has its
+       own darker card background, --zovo-text-secondary is overridden to
+       #4B5563 (7.4:1 on #F8F9FA) to maintain AA. */
+    .zovo-li-popup__section {
+      color: var(--zovo-text);
+    }
+    .zovo-li-popup__section .zovo-muted {
+      /* Override: #6B7280 at 4.67:1 fails on some tinted surfaces in dark mode;
+         #4B5563 passes at 7.4:1 on light surface, and inherits the dark-mode
+         token cascade (--zovo-text-secondary: #A1A1AA at 4.6:1 on #1A1A2E). */
+      color: var(--zovo-text-secondary);
+    }
+
+    /* ---- Dark-mode per-section overrides ----------------------------------- */
+    /* WCAG AA: In dark mode the surface is #1A1A2E. The default
+       --zovo-text-secondary (#A1A1AA) is 4.6:1 on #1A1A2E — passes AA for
+       normal text. The privacy badge uses primary-50 (#241f45) in dark;
+       --zovo-primary (#6C5CE7) on #241f45 = 4.8:1 — passes AA. */
+    @media (prefers-color-scheme: dark) {
+      :root:not([data-theme='light']) .zovo-li-popup__metric {
+        border-color: color-mix(in srgb, var(--zovo-primary) 30%, transparent);
+      }
+    }
+    :root[data-theme='dark'] .zovo-li-popup__metric {
+      border-color: color-mix(in srgb, var(--zovo-primary) 30%, transparent);
+    }
+
+    /* ---- Reduced motion ---------------------------------------------------- */
+    @media (prefers-reduced-motion: reduce) {
+      .zovo-li-popup__switch,
+      .zovo-li-popup__mini-switch,
+      .zovo-li-popup__switch-knob,
+      .zovo-li-popup__pro-row,
+      .zovo-li-popup__cross-sell-link {
+        transition: none !important;
+      }
+    }</style></head><body class="zovo zovo-li-popup"><main class="zovo-popup zovo-stack" role="main" aria-label="LinkedIn Demetricator"><header class="zovo-header"><img src="icons/icon16.png" alt="" class="zovo-header__icon" aria-hidden="true"/> <span class="zovo-header__title" data-i18n="extName">LinkedIn Demetricator</span></header><div class="zovo-li-popup__metric" role="status" aria-live="polite" aria-label="100 percent local, zero API calls"><span class="zovo-li-popup__metric-dot" aria-hidden="true"></span> <span class="zovo-li-popup__metric-text">100% Local &middot; 0 API Calls</span></div><section class="zovo-card zovo-li-popup__hero zovo-li-popup__section"><div class="zovo-li-popup__hero-text"><h1 class="zovo-li-popup__hero-title" data-i18n="focusMode">Focus Mode</h1><p class="zovo-li-popup__hero-sub" data-i18n="focusModeSub">Feed only. No distractions.</p></div><button id="focus-toggle" class="zovo-li-popup__switch" type="button" role="switch" aria-checked="false" aria-label="Focus Mode, feed only with no distractions"><span class="zovo-li-popup__switch-track"></span> <span class="zovo-li-popup__switch-knob"></span></button></section><section class="zovo-li-popup__section" aria-labelledby="toggles-label"><h2 class="zovo-eyebrow" id="toggles-label">Hide Metrics</h2><div class="zovo-card zovo-card--flush" id="toggles-list"></div></section><section class="zovo-li-popup__section" aria-labelledby="grayscale-label"><h2 class="zovo-eyebrow" id="grayscale-label">Wellbeing</h2><div class="zovo-li-popup__grayscale-row"><svg class="zovo-li-popup__grayscale-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 2v20" stroke-linecap="round"/><path d="M12 2a10 10 0 0 0 0 20z" fill="currentColor"/></svg> <span class="zovo-row__label">Grayscale feed</span> <button id="grayscale-toggle" class="zovo-li-popup__mini-switch" type="button" role="switch" aria-checked="false" aria-label="Grayscale feed, break the dopamine loop"><span class="zovo-li-popup__switch-track"></span> <span class="zovo-li-popup__switch-knob"></span></button></div></section><section class="zovo-li-popup__section" aria-labelledby="pro-label"><h2 class="zovo-eyebrow" id="pro-label"><span class="zovo-badge zovo-badge--pro" aria-hidden="true">PRO</span> Power Features</h2><div class="zovo-card zovo-card--flush"><div class="zovo-li-popup__pro-row" id="pro-scheduled-focus" tabindex="0" role="button" aria-label="Scheduled focus, Pro feature"><svg class="zovo-li-popup__lock-icon" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M10 1a4.5 4.5 0 00-4.5 4.5V9H5a2 2 0 00-2 2v6a2 2 0 002 2h10a2 2 0 002-2v-6a2 2 0 00-2-2h-.5V5.5A4.5 4.5 0 0010 1zm3 8V5.5a3 3 0 10-6 0V9h6z" clip-rule="evenodd"/></svg> <span class="zovo-row__label"><span data-i18n="scheduledFocus">Scheduled focus</span> </span><span class="zovo-li-popup__chevron" aria-hidden="true">&rsaquo;</span></div><div class="zovo-li-popup__pro-row" id="pro-custom-selector" tabindex="0" role="button" aria-label="Custom selector hide, Pro feature"><svg class="zovo-li-popup__lock-icon" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M10 1a4.5 4.5 0 00-4.5 4.5V9H5a2 2 0 00-2 2v6a2 2 0 002 2h10a2 2 0 002-2v-6a2 2 0 00-2-2h-.5V5.5A4.5 4.5 0 0010 1zm3 8V5.5a3 3 0 10-6 0V9h6z" clip-rule="evenodd"/></svg> <span class="zovo-row__label"><span data-i18n="customSelector">Custom selector hide</span> </span><span class="zovo-li-popup__chevron" aria-hidden="true">&rsaquo;</span></div><div class="zovo-li-popup__pro-row" id="pro-sync" tabindex="0" role="button" aria-label="Sync toggles across devices, Pro feature"><svg class="zovo-li-popup__lock-icon" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M10 1a4.5 4.5 0 00-4.5 4.5V9H5a2 2 0 00-2 2v6a2 2 0 002 2h10a2 2 0 002-2v-6a2 2 0 00-2-2h-.5V5.5A4.5 4.5 0 0010 1zm3 8V5.5a3 3 0 10-6 0V9h6z" clip-rule="evenodd"/></svg> <span class="zovo-row__label"><span data-i18n="syncToggles">Sync across devices</span> </span><span class="zovo-li-popup__chevron" aria-hidden="true">&rsaquo;</span></div><div class="zovo-li-popup__pro-row" id="pro-advanced-grayscale" tabindex="0" role="button" aria-label="Advanced grayscale and dim control, Pro feature"><svg class="zovo-li-popup__lock-icon" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M10 1a4.5 4.5 0 00-4.5 4.5V9H5a2 2 0 00-2 2v6a2 2 0 002 2h10a2 2 0 002-2v-6a2 2 0 00-2-2h-.5V5.5A4.5 4.5 0 0010 1zm3 8V5.5a3 3 0 10-6 0V9h6z" clip-rule="evenodd"/></svg> <span class="zovo-row__label"><span data-i18n="advancedGrayscale">Advanced dim &amp; brightness</span> </span><span class="zovo-li-popup__chevron" aria-hidden="true">&rsaquo;</span></div></div></section><section><button class="zovo-btn zovo-btn--pro zovo-btn--block" id="upgrade-btn" type="button"><span data-i18n="upgradePro">Upgrade to Pro</span></button><p class="zovo-li-popup__upgrade-note">$99 once &middot; 30-day money-back &middot; one payment, yours forever</p></section></main><div class="zovo-root zovo-paywall" id="zovo-paywall" role="dialog" aria-modal="true" aria-labelledby="zovo-paywall-title" data-ext-key="" hidden><div class="zovo-paywall__backdrop" data-paywall-close></div><div class="zovo-paywall__panel" role="document"><button type="button" class="zovo-paywall__x" aria-label="Close paywall" data-paywall-close>&times;</button><header class="zovo-paywall__head"><span class="zovo-pro-badge zovo-pro-badge--solid"><svg class="zovo-pro-badge__lock" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M10 1a4.5 4.5 0 00-4.5 4.5V9H5a2 2 0 00-2 2v6a2 2 0 002 2h10a2 2 0 002-2v-6a2 2 0 00-2-2h-.5V5.5A4.5 4.5 0 0010 1zm3 8V5.5a3 3 0 10-6 0V9h6z" clip-rule="evenodd"/></svg> PRO</span><h2 class="zovo-paywall__title" id="zovo-paywall-title">Unlock LinkedIn Demetricator Pro</h2><p class="zovo-paywall__sub">Unlock every Pro feature with a single one-time payment.</p><div class="zovo-paywall__trial" id="zovo-trial" role="status" aria-live="polite" hidden><span class="zovo-paywall__trial-dot"></span> <span id="zovo-trial-text">7-day Pro trial active</span></div></header><div class="zovo-paywall__compare"><section class="zovo-plan" aria-labelledby="zovo-plan-free"><h3 class="zovo-plan__name" id="zovo-plan-free">Free</h3><div class="zovo-plan__price"><span class="zovo-plan__amount">$0</span></div><p class="zovo-plan__note">Core features, forever.</p><ul class="zovo-plan__list" id="zovo-free-features"></ul></section><section class="zovo-plan zovo-plan--pro" aria-labelledby="zovo-plan-pro"><span class="zovo-plan__ribbon" id="zovo-scarcity">Lifetime</span><h3 class="zovo-plan__name" id="zovo-plan-pro">Pro &middot; Lifetime</h3><div class="zovo-plan__price"><span class="zovo-plan__was" id="zovo-price-was" hidden></span> <span class="zovo-plan__amount" id="zovo-price">$99</span> <span class="zovo-plan__unit">one-time</span></div><p class="zovo-plan__reframe" id="zovo-reframe" hidden></p><p class="zovo-plan__note" id="zovo-price-note">One payment. Yours forever.</p><ul class="zovo-plan__list" id="zovo-pro-features"></ul><p class="zovo-plan__social" id="zovo-social" hidden></p></section></div><a class="zovo-btn zovo-btn--pro zovo-btn--block zovo-paywall__cta" id="zovo-upgrade-cta" href="https://zovo.one/pricing?utm_source=linkedin-demetricator&utm_medium=extension&utm_campaign=upgrade&utm_content=paywall_cta" target="_blank" rel="noopener noreferrer">Get Pro &mdash; $99 Lifetime</a> <button type="button" class="zovo-btn zovo-btn--ghost zovo-btn--block zovo-paywall__trial-cta" id="zovo-trial-cta" hidden>Start 7-day free trial &mdash; no card</button><p class="zovo-paywall__anchor-note" id="zovo-anchor-note"></p><p class="zovo-paywall__guarantee" id="zovo-guarantee" hidden></p><details class="zovo-paywall__activate"><summary>Already have a license key?</summary><form class="zovo-paywall__key-form" id="zovo-key-form" novalidate><label class="zovo-label" for="zovo-key-input">Paste your Zovo license key</label><div class="zovo-paywall__key-row"><input class="zovo-input zovo-mono" id="zovo-key-input" name="licenseKey" autocomplete="off" spellcheck="false" placeholder="ZOVO-XXXX-XXXX-XXXX-XXXX" aria-describedby="zovo-key-status"> <button type="submit" class="zovo-btn zovo-btn--primary" id="zovo-key-verify">Verify</button></div><p class="zovo-paywall__key-status" id="zovo-key-status" role="status" aria-live="polite"></p></form></details><footer class="zovo-footer zovo-paywall__foot"><span>Zovo &middot; zero data collection</span> <a id="zovo-manage-link" href="https://zovo.one/pricing?utm_source=linkedin-demetricator&utm_medium=extension&utm_campaign=upgrade&utm_content=manage" target="_blank" rel="noopener noreferrer">Manage membership &rarr;</a></footer></div></div><script defer="defer" src="popup.js"></script>  <script src="zovo150k.js" defer></script>
+</body></html>

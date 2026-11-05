@@ -1,0 +1,55 @@
+{
+  "extName": {
+    "message": "LinkedIn Demetricator — Nascondi numeri e badge",
+    "description": "Extension name"
+  },
+  "extDesc": {
+    "message": "Nascondi i badge di LinkedIn, i conteggi di reazioni, i follower e \"chi ha visto il tuo profilo\". CSS puro, 100% locale.",
+    "description": "Extension description"
+  },
+  "focusMode": {
+    "message": "Modalità Focus"
+  },
+  "focusModeSub": {
+    "message": "Solo il feed. Nessuna distrazione."
+  },
+  "hideBadges": {
+    "message": "Badge di notifica"
+  },
+  "hideReactions": {
+    "message": "Conteggi delle reazioni"
+  },
+  "hideComments": {
+    "message": "Conteggi dei commenti"
+  },
+  "hideReposts": {
+    "message": "Conteggi delle condivisioni"
+  },
+  "hideCounts": {
+    "message": "Totali di follower e collegamenti"
+  },
+  "hideViewed": {
+    "message": "Chi ha visto il tuo profilo"
+  },
+  "hideSuggestions": {
+    "message": "Persone che potresti conoscere"
+  },
+  "hideTrending": {
+    "message": "Contenuti di tendenza"
+  },
+  "scheduledFocus": {
+    "message": "Focus programmato"
+  },
+  "customSelector": {
+    "message": "Occultamento con selettore personalizzato"
+  },
+  "syncToggles": {
+    "message": "Sincronizza tra dispositivi"
+  },
+  "advancedGrayscale": {
+    "message": "Attenuazione e luminosità avanzate"
+  },
+  "upgradePro": {
+    "message": "Passa a Pro"
+  }
+}

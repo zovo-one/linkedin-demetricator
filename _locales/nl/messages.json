@@ -1,0 +1,55 @@
+{
+  "extName": {
+    "message": "LinkedIn Demetricator — Tellingen & badges verbergen",
+    "description": "Extension name"
+  },
+  "extDesc": {
+    "message": "Verberg LinkedIn-badges, reactietellingen, volgersaantallen en „wie jou bekeek“. Puur CSS, 100% lokaal, geen data verzonden.",
+    "description": "Extension description"
+  },
+  "focusMode": {
+    "message": "Focusmodus"
+  },
+  "focusModeSub": {
+    "message": "Alleen feed. Geen afleidingen."
+  },
+  "hideBadges": {
+    "message": "Meldingsbadges"
+  },
+  "hideReactions": {
+    "message": "Reactietellingen"
+  },
+  "hideComments": {
+    "message": "Commentaartellingen"
+  },
+  "hideReposts": {
+    "message": "Repost-tellingen"
+  },
+  "hideCounts": {
+    "message": "Volgers- & connectietotalen"
+  },
+  "hideViewed": {
+    "message": "Wie je profiel bekeek"
+  },
+  "hideSuggestions": {
+    "message": "Personen die je misschien kent"
+  },
+  "hideTrending": {
+    "message": "Trending inhoud"
+  },
+  "scheduledFocus": {
+    "message": "Geplande focus"
+  },
+  "customSelector": {
+    "message": "Eigen selector verbergen"
+  },
+  "syncToggles": {
+    "message": "Synchroniseren tussen apparaten"
+  },
+  "advancedGrayscale": {
+    "message": "Geavanceerd dimmen & helderheid"
+  },
+  "upgradePro": {
+    "message": "Upgraden naar Pro"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "extName": {
+    "message": "LinkedIn Demetricator — slēpt skaitļus un nozīmītes",
+    "description": "Extension name"
+  },
+  "extDesc": {
+    "message": "Slēpiet LinkedIn nozīmītes, reakciju skaitus, sekotāju kopsummas un \"kas jūs skatījās\". Tīrs CSS, 100% lokāls, dati netiek sūtīti.",
+    "description": "Extension description"
+  },
+  "focusMode": {
+    "message": "Fokusa režīms"
+  },
+  "focusModeSub": {
+    "message": "Tikai plūsma. Nekādu traucēkļu."
+  },
+  "hideBadges": {
+    "message": "Paziņojumu nozīmītes"
+  },
+  "hideReactions": {
+    "message": "Reakciju skaits"
+  },
+  "hideComments": {
+    "message": "Komentāru skaits"
+  },
+  "hideReposts": {
+    "message": "Kopīgojumu skaits"
+  },
+  "hideCounts": {
+    "message": "Sekotāju un kontaktu kopsummas"
+  },
+  "hideViewed": {
+    "message": "Kas skatījās jūsu profilu"
+  },
+  "hideSuggestions": {
+    "message": "Cilvēki, ko varētu pazīt"
+  },
+  "hideTrending": {
+    "message": "Populārais saturs"
+  },
+  "scheduledFocus": {
+    "message": "Ieplānots fokuss"
+  },
+  "customSelector": {
+    "message": "Pielāgota selektora slēpšana"
+  },
+  "syncToggles": {
+    "message": "Sinhronizēt starp ierīcēm"
+  },
+  "advancedGrayscale": {
+    "message": "Papildu aptumšošana un spilgtums"
+  },
+  "upgradePro": {
+    "message": "Jaunināt uz Pro"
+  }
+}

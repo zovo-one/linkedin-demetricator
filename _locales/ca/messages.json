@@ -1,0 +1,55 @@
+{
+  "extName": {
+    "message": "LinkedIn Demetricator — Amaga xifres i insígnies",
+    "description": "Extension name"
+  },
+  "extDesc": {
+    "message": "Amaga les insígnies de LinkedIn, els recomptes de reaccions, els seguidors i \"qui ha vist el teu perfil\". CSS pur, 100% local.",
+    "description": "Extension description"
+  },
+  "focusMode": {
+    "message": "Mode Concentració"
+  },
+  "focusModeSub": {
+    "message": "Només el feed. Sense distraccions."
+  },
+  "hideBadges": {
+    "message": "Insígnies de notificació"
+  },
+  "hideReactions": {
+    "message": "Recomptes de reaccions"
+  },
+  "hideComments": {
+    "message": "Recomptes de comentaris"
+  },
+  "hideReposts": {
+    "message": "Recomptes de comparticions"
+  },
+  "hideCounts": {
+    "message": "Totals de seguidors i contactes"
+  },
+  "hideViewed": {
+    "message": "Qui ha vist el teu perfil"
+  },
+  "hideSuggestions": {
+    "message": "Persones que potser coneixes"
+  },
+  "hideTrending": {
+    "message": "Contingut de tendència"
+  },
+  "scheduledFocus": {
+    "message": "Concentració programada"
+  },
+  "customSelector": {
+    "message": "Ocultació amb selector personalitzat"
+  },
+  "syncToggles": {
+    "message": "Sincronitza entre dispositius"
+  },
+  "advancedGrayscale": {
+    "message": "Atenuació i lluminositat avançades"
+  },
+  "upgradePro": {
+    "message": "Millora a Pro"
+  }
+}

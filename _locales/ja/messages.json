@@ -1,0 +1,55 @@
+{
+  "extName": {
+    "message": "LinkedIn Demetricator — カウントとバッジを非表示",
+    "description": "Extension name"
+  },
+  "extDesc": {
+    "message": "LinkedIn のバッジ、リアクション数、フォロワー数、「あなたを閲覧した人」を非表示に。純粋な CSS、100% ローカル、データ送信は一切なし。",
+    "description": "Extension description"
+  },
+  "focusMode": {
+    "message": "フォーカスモード"
+  },
+  "focusModeSub": {
+    "message": "フィードのみ。気が散るものなし。"
+  },
+  "hideBadges": {
+    "message": "通知バッジ"
+  },
+  "hideReactions": {
+    "message": "リアクション数"
+  },
+  "hideComments": {
+    "message": "コメント数"
+  },
+  "hideReposts": {
+    "message": "リポスト数"
+  },
+  "hideCounts": {
+    "message": "フォロワーとつながりの合計数"
+  },
+  "hideViewed": {
+    "message": "あなたのプロフィールを見た人"
+  },
+  "hideSuggestions": {
+    "message": "知り合いかも"
+  },
+  "hideTrending": {
+    "message": "トレンドのコンテンツ"
+  },
+  "scheduledFocus": {
+    "message": "スケジュールされたフォーカス"
+  },
+  "customSelector": {
+    "message": "カスタムセレクターで非表示"
+  },
+  "syncToggles": {
+    "message": "デバイス間で同期"
+  },
+  "advancedGrayscale": {
+    "message": "高度な減光と明るさ"
+  },
+  "upgradePro": {
+    "message": "Pro にアップグレード"
+  }
+}

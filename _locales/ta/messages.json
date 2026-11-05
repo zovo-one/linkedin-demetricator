@@ -1,0 +1,55 @@
+{
+  "extName": {
+    "message": "LinkedIn Demetricator — எண்ணிக்கை & பேட்ஜ்களை மறை",
+    "description": "Extension name"
+  },
+  "extDesc": {
+    "message": "LinkedIn பேட்ஜ்கள், ரியாக்‌ஷன் எண்ணிக்கை, பின்தொடர்பவர் மொத்தம் ஆகியவற்றை மறை. தூய CSS, 100% லோக்கல், தரவு எங்கும் அனுப்பப்படாது.",
+    "description": "Extension description"
+  },
+  "focusMode": {
+    "message": "கவன பயன்முறை"
+  },
+  "focusModeSub": {
+    "message": "ஃபீட் மட்டும். கவனச்சிதறல் இல்லை."
+  },
+  "hideBadges": {
+    "message": "அறிவிப்பு பேட்ஜ்கள்"
+  },
+  "hideReactions": {
+    "message": "ரியாக்ஷன் எண்ணிக்கை"
+  },
+  "hideComments": {
+    "message": "கருத்து எண்ணிக்கை"
+  },
+  "hideReposts": {
+    "message": "மறுபகிர்வு எண்ணிக்கை"
+  },
+  "hideCounts": {
+    "message": "பின்தொடர்பவர் & தொடர்பு மொத்தம்"
+  },
+  "hideViewed": {
+    "message": "உங்கள் சுயவிவரத்தை யார் பார்த்தார்கள்"
+  },
+  "hideSuggestions": {
+    "message": "நீங்கள் அறிந்திருக்கக்கூடிய நபர்கள்"
+  },
+  "hideTrending": {
+    "message": "பிரபலமான உள்ளடக்கம்"
+  },
+  "scheduledFocus": {
+    "message": "திட்டமிட்ட கவனம்"
+  },
+  "customSelector": {
+    "message": "தனிப்பயன் தேர்வி மறைப்பு"
+  },
+  "syncToggles": {
+    "message": "சாதனங்களில் ஒத்திசை"
+  },
+  "advancedGrayscale": {
+    "message": "மேம்பட்ட மங்கல் & பிரகாசம்"
+  },
+  "upgradePro": {
+    "message": "Pro-க்கு மேம்படுத்து"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "extName": {
+    "message": "LinkedIn Demetricator — ቁጥሮችንና ባጆችን ደብቅ",
+    "description": "Extension name"
+  },
+  "extDesc": {
+    "message": "የLinkedIn ባጆችን፣ የምላሽ ቁጥሮችን፣ የተከታዮች ድምሮችንና \"ማን እንደተመለከተህ\" ደብቅ። ንጹህ CSS፣ 100% አካባቢያዊ፣ ወደ የትም መረጃ አይላክም።",
+    "description": "Extension description"
+  },
+  "focusMode": {
+    "message": "የትኩረት ሁነታ"
+  },
+  "focusModeSub": {
+    "message": "ፍሰት ብቻ። ትኩረት ሰቃይ የለም።"
+  },
+  "hideBadges": {
+    "message": "የማሳወቂያ ባጆች"
+  },
+  "hideReactions": {
+    "message": "የምላሽ ቁጥሮች"
+  },
+  "hideComments": {
+    "message": "የአስተያየት ቁጥሮች"
+  },
+  "hideReposts": {
+    "message": "የድጋሚ ልጥፍ ቁጥሮች"
+  },
+  "hideCounts": {
+    "message": "የተከታዮችና የግንኙነት ድምሮች"
+  },
+  "hideViewed": {
+    "message": "ማን መገለጫህን እንደተመለከተ"
+  },
+  "hideSuggestions": {
+    "message": "ልታውቃቸው የምትችላቸው ሰዎች"
+  },
+  "hideTrending": {
+    "message": "ተወዳጅ ይዘት"
+  },
+  "scheduledFocus": {
+    "message": "የተያዘ ትኩረት"
+  },
+  "customSelector": {
+    "message": "ብጁ መራጭ መደበቅ"
+  },
+  "syncToggles": {
+    "message": "በመሣሪያዎች መካከል ማስተባበር"
+  },
+  "advancedGrayscale": {
+    "message": "የላቀ ማደብዘዝና ብሩህነት"
+  },
+  "upgradePro": {
+    "message": "ወደ Pro አሻሽል"
+  }
+}

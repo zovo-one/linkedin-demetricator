@@ -1,0 +1,55 @@
+{
+  "extName": {
+    "message": "LinkedIn Demetricator — Dölj siffror och märken",
+    "description": "Extension name"
+  },
+  "extDesc": {
+    "message": "Dölj LinkedIn-märken, reaktionssiffror, följarantal och „vem tittade på dig“. Ren CSS, 100 % lokalt, ingen data skickas.",
+    "description": "Extension description"
+  },
+  "focusMode": {
+    "message": "Fokusläge"
+  },
+  "focusModeSub": {
+    "message": "Endast flöde. Inga distraktioner."
+  },
+  "hideBadges": {
+    "message": "Aviseringsmärken"
+  },
+  "hideReactions": {
+    "message": "Reaktionssiffror"
+  },
+  "hideComments": {
+    "message": "Kommentarssiffror"
+  },
+  "hideReposts": {
+    "message": "Delningssiffror"
+  },
+  "hideCounts": {
+    "message": "Antal följare och kontakter"
+  },
+  "hideViewed": {
+    "message": "Vem tittade på din profil"
+  },
+  "hideSuggestions": {
+    "message": "Personer du kanske känner"
+  },
+  "hideTrending": {
+    "message": "Populärt innehåll"
+  },
+  "scheduledFocus": {
+    "message": "Schemalagt fokus"
+  },
+  "customSelector": {
+    "message": "Dölj med anpassad väljare"
+  },
+  "syncToggles": {
+    "message": "Synka mellan enheter"
+  },
+  "advancedGrayscale": {
+    "message": "Avancerad nedtoning och ljusstyrka"
+  },
+  "upgradePro": {
+    "message": "Uppgradera till Pro"
+  }
+}

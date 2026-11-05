@@ -1,0 +1,55 @@
+{
+  "extName": {
+    "message": "LinkedIn Demetricator — काउंट और बैज छिपाएं",
+    "description": "Extension name"
+  },
+  "extDesc": {
+    "message": "LinkedIn के बैज, रिएक्शन काउंट, फॉलोअर संख्या और \"किसने आपको देखा\" छिपाएं। शुद्ध CSS, 100% लोकल, कोई डेटा कहीं नहीं भेजा जाता।",
+    "description": "Extension description"
+  },
+  "focusMode": {
+    "message": "Focus Mode"
+  },
+  "focusModeSub": {
+    "message": "केवल फ़ीड। कोई ध्यानभंग नहीं।"
+  },
+  "hideBadges": {
+    "message": "नोटिफिकेशन बैज"
+  },
+  "hideReactions": {
+    "message": "रिएक्शन काउंट"
+  },
+  "hideComments": {
+    "message": "कमेंट काउंट"
+  },
+  "hideReposts": {
+    "message": "रीपोस्ट काउंट"
+  },
+  "hideCounts": {
+    "message": "फॉलोअर और कनेक्शन के आंकड़े"
+  },
+  "hideViewed": {
+    "message": "किसने आपकी प्रोफ़ाइल देखी"
+  },
+  "hideSuggestions": {
+    "message": "जिन्हें आप जान सकते हैं"
+  },
+  "hideTrending": {
+    "message": "ट्रेंडिंग सामग्री"
+  },
+  "scheduledFocus": {
+    "message": "शेड्यूल किया गया फोकस"
+  },
+  "customSelector": {
+    "message": "कस्टम सेलेक्टर हाइड"
+  },
+  "syncToggles": {
+    "message": "डिवाइस के बीच सिंक करें"
+  },
+  "advancedGrayscale": {
+    "message": "उन्नत डिम और ब्राइटनेस"
+  },
+  "upgradePro": {
+    "message": "Pro में अपग्रेड करें"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "extName": {
+    "message": "LinkedIn Demetricator — skrij števce in značke",
+    "description": "Extension name"
+  },
+  "extDesc": {
+    "message": "Skrijte značke, števce reakcij, število sledilcev in „kdo si je ogledal vaš profil“ na LinkedInu. Čisti CSS, 100% lokalno.",
+    "description": "Extension description"
+  },
+  "focusMode": {
+    "message": "Način osredotočenosti"
+  },
+  "focusModeSub": {
+    "message": "Samo vsebina. Brez motenj."
+  },
+  "hideBadges": {
+    "message": "Značke obvestil"
+  },
+  "hideReactions": {
+    "message": "Števci reakcij"
+  },
+  "hideComments": {
+    "message": "Števci komentarjev"
+  },
+  "hideReposts": {
+    "message": "Števci ponovnih objav"
+  },
+  "hideCounts": {
+    "message": "Skupno sledilcev in povezav"
+  },
+  "hideViewed": {
+    "message": "Kdo si je ogledal vaš profil"
+  },
+  "hideSuggestions": {
+    "message": "Ljudje, ki jih morda poznate"
+  },
+  "hideTrending": {
+    "message": "Priljubljena vsebina"
+  },
+  "scheduledFocus": {
+    "message": "Načrtovana osredotočenost"
+  },
+  "customSelector": {
+    "message": "Skrivanje po meri s selektorjem"
+  },
+  "syncToggles": {
+    "message": "Sinhronizacija med napravami"
+  },
+  "advancedGrayscale": {
+    "message": "Napredno zatemnitev in svetlost"
+  },
+  "upgradePro": {
+    "message": "Nadgradi na Pro"
+  }
+}

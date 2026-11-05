@@ -1,0 +1,55 @@
+{
+  "extName": {
+    "message": "LinkedIn Demetricator — Hide Counts & Badges",
+    "description": "Extension name"
+  },
+  "extDesc": {
+    "message": "Hide LinkedIn badges, reaction counts, follower totals and \"who viewed you\". Pure CSS, 100% local, zero data sent anywhere.",
+    "description": "Extension description"
+  },
+  "focusMode": {
+    "message": "Focus Mode"
+  },
+  "focusModeSub": {
+    "message": "Feed only. No distractions."
+  },
+  "hideBadges": {
+    "message": "Notification badges"
+  },
+  "hideReactions": {
+    "message": "Reaction counts"
+  },
+  "hideComments": {
+    "message": "Comment counts"
+  },
+  "hideReposts": {
+    "message": "Repost counts"
+  },
+  "hideCounts": {
+    "message": "Follower & connection totals"
+  },
+  "hideViewed": {
+    "message": "Who viewed your profile"
+  },
+  "hideSuggestions": {
+    "message": "People you may know"
+  },
+  "hideTrending": {
+    "message": "Trending content"
+  },
+  "scheduledFocus": {
+    "message": "Scheduled focus"
+  },
+  "customSelector": {
+    "message": "Custom selector hide"
+  },
+  "syncToggles": {
+    "message": "Sync across devices"
+  },
+  "advancedGrayscale": {
+    "message": "Advanced dim & brightness"
+  },
+  "upgradePro": {
+    "message": "Upgrade to Pro"
+  }
+}

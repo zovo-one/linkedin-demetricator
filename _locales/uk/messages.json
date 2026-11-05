@@ -1,0 +1,55 @@
+{
+  "extName": {
+    "message": "LinkedIn Demetricator — сховати лічильники та значки",
+    "description": "Extension name"
+  },
+  "extDesc": {
+    "message": "Приховуйте значки, лічильники реакцій, кількість підписників і «хто переглядав ваш профіль» у LinkedIn. Чистий CSS, 100% локально.",
+    "description": "Extension description"
+  },
+  "focusMode": {
+    "message": "Режим фокусування"
+  },
+  "focusModeSub": {
+    "message": "Лише стрічка. Жодних відволікань."
+  },
+  "hideBadges": {
+    "message": "Значки сповіщень"
+  },
+  "hideReactions": {
+    "message": "Лічильники реакцій"
+  },
+  "hideComments": {
+    "message": "Лічильники коментарів"
+  },
+  "hideReposts": {
+    "message": "Лічильники репостів"
+  },
+  "hideCounts": {
+    "message": "Загальна кількість підписників і контактів"
+  },
+  "hideViewed": {
+    "message": "Хто переглядав ваш профіль"
+  },
+  "hideSuggestions": {
+    "message": "Люди, яких ви можете знати"
+  },
+  "hideTrending": {
+    "message": "Популярний контент"
+  },
+  "scheduledFocus": {
+    "message": "Заплановане фокусування"
+  },
+  "customSelector": {
+    "message": "Приховування власним селектором"
+  },
+  "syncToggles": {
+    "message": "Синхронізація між пристроями"
+  },
+  "advancedGrayscale": {
+    "message": "Розширене затемнення та яскравість"
+  },
+  "upgradePro": {
+    "message": "Оновити до Pro"
+  }
+}

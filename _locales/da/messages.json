@@ -1,0 +1,55 @@
+{
+  "extName": {
+    "message": "LinkedIn Demetricator — Skjul tal og badges",
+    "description": "Extension name"
+  },
+  "extDesc": {
+    "message": "Skjul LinkedIn-badges, reaktionstal, følgertal og „hvem så dig“. Ren CSS, 100 % lokalt, ingen data sendt nogen steder.",
+    "description": "Extension description"
+  },
+  "focusMode": {
+    "message": "Fokustilstand"
+  },
+  "focusModeSub": {
+    "message": "Kun feedet. Ingen distraktioner."
+  },
+  "hideBadges": {
+    "message": "Notifikationsbadges"
+  },
+  "hideReactions": {
+    "message": "Reaktionstal"
+  },
+  "hideComments": {
+    "message": "Kommentartal"
+  },
+  "hideReposts": {
+    "message": "Repost-tal"
+  },
+  "hideCounts": {
+    "message": "Følger- og forbindelsessummer"
+  },
+  "hideViewed": {
+    "message": "Hvem har set din profil"
+  },
+  "hideSuggestions": {
+    "message": "Personer, du måske kender"
+  },
+  "hideTrending": {
+    "message": "Trending indhold"
+  },
+  "scheduledFocus": {
+    "message": "Planlagt fokus"
+  },
+  "customSelector": {
+    "message": "Skjul med egen selektor"
+  },
+  "syncToggles": {
+    "message": "Synkroniser på tværs af enheder"
+  },
+  "advancedGrayscale": {
+    "message": "Avanceret dæmpning og lysstyrke"
+  },
+  "upgradePro": {
+    "message": "Opgrader til Pro"
+  }
+}

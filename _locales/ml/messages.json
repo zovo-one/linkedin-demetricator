@@ -1,0 +1,55 @@
+{
+  "extName": {
+    "message": "LinkedIn Demetricator — എണ്ണങ്ങളും ബാഡ്ജുകളും മറയ്ക്കുക",
+    "description": "Extension name"
+  },
+  "extDesc": {
+    "message": "LinkedIn ബാഡ്ജുകൾ, റിയാക്ഷൻ എണ്ണങ്ങൾ, ഫോളോവർ ആകെത്തുകകൾ എന്നിവ മറയ്ക്കുക. ശുദ്ധ CSS, 100% ലോക്കൽ, ഡാറ്റ പുറത്തുപോകില്ല.",
+    "description": "Extension description"
+  },
+  "focusMode": {
+    "message": "ഫോക്കസ് മോഡ്"
+  },
+  "focusModeSub": {
+    "message": "ഫീഡ് മാത്രം. ശ്രദ്ധ വ്യതിചലനങ്ങളില്ല."
+  },
+  "hideBadges": {
+    "message": "അറിയിപ്പ് ബാഡ്ജുകൾ"
+  },
+  "hideReactions": {
+    "message": "റിയാക്ഷൻ എണ്ണം"
+  },
+  "hideComments": {
+    "message": "കമന്റ് എണ്ണം"
+  },
+  "hideReposts": {
+    "message": "റീപോസ്റ്റ് എണ്ണം"
+  },
+  "hideCounts": {
+    "message": "ഫോളോവർ, കണക്ഷൻ ആകെത്തുകകൾ"
+  },
+  "hideViewed": {
+    "message": "നിങ്ങളുടെ പ്രൊഫൈൽ ആരു കണ്ടു"
+  },
+  "hideSuggestions": {
+    "message": "നിങ്ങൾക്ക് അറിയാവുന്ന ആളുകൾ"
+  },
+  "hideTrending": {
+    "message": "ട്രെൻഡിംഗ് ഉള്ളടക്കം"
+  },
+  "scheduledFocus": {
+    "message": "ഷെഡ്യൂൾ ചെയ്ത ഫോക്കസ്"
+  },
+  "customSelector": {
+    "message": "ഇഷ്ടാനുസൃത സെലക്ടർ മറയ്ക്കൽ"
+  },
+  "syncToggles": {
+    "message": "ഉപകരണങ്ങളിൽ സമന്വയിപ്പിക്കുക"
+  },
+  "advancedGrayscale": {
+    "message": "വിപുലമായ ഡിം & തെളിച്ചം"
+  },
+  "upgradePro": {
+    "message": "Pro-ലേക്ക് അപ്ഗ്രേഡ് ചെയ്യുക"
+  }
+}

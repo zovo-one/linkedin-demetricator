@@ -1,0 +1,55 @@
+{
+  "extName": {
+    "message": "LinkedIn Demetricator — Απόκρυψη Μετρήσεων & Σημάτων",
+    "description": "Extension name"
+  },
+  "extDesc": {
+    "message": "Κρύψτε σήματα LinkedIn, αριθμούς αντιδράσεων, σύνολα ακολούθων και \"ποιος σας είδε\". Καθαρό CSS, 100% τοπικά, μηδέν δεδομένα.",
+    "description": "Extension description"
+  },
+  "focusMode": {
+    "message": "Λειτουργία Εστίασης"
+  },
+  "focusModeSub": {
+    "message": "Μόνο ροή. Χωρίς περισπασμούς."
+  },
+  "hideBadges": {
+    "message": "Σήματα ειδοποιήσεων"
+  },
+  "hideReactions": {
+    "message": "Αριθμοί αντιδράσεων"
+  },
+  "hideComments": {
+    "message": "Αριθμοί σχολίων"
+  },
+  "hideReposts": {
+    "message": "Αριθμοί αναδημοσιεύσεων"
+  },
+  "hideCounts": {
+    "message": "Σύνολα ακολούθων & συνδέσεων"
+  },
+  "hideViewed": {
+    "message": "Ποιος είδε το προφίλ σας"
+  },
+  "hideSuggestions": {
+    "message": "Άτομα που ίσως γνωρίζετε"
+  },
+  "hideTrending": {
+    "message": "Δημοφιλές περιεχόμενο"
+  },
+  "scheduledFocus": {
+    "message": "Προγραμματισμένη εστίαση"
+  },
+  "customSelector": {
+    "message": "Απόκρυψη με προσαρμοσμένο επιλογέα"
+  },
+  "syncToggles": {
+    "message": "Συγχρονισμός μεταξύ συσκευών"
+  },
+  "advancedGrayscale": {
+    "message": "Προηγμένο θάμπωμα & φωτεινότητα"
+  },
+  "upgradePro": {
+    "message": "Αναβάθμιση σε Pro"
+  }
+}

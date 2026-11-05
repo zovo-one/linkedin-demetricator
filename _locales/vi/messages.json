@@ -1,0 +1,55 @@
+{
+  "extName": {
+    "message": "LinkedIn Demetricator — Ẩn số liệu & huy hiệu",
+    "description": "Extension name"
+  },
+  "extDesc": {
+    "message": "Ẩn huy hiệu LinkedIn, số lượt phản ứng, tổng người theo dõi và \"ai đã xem bạn\". CSS thuần, 100% cục bộ, không gửi dữ liệu đi đâu cả.",
+    "description": "Extension description"
+  },
+  "focusMode": {
+    "message": "Chế độ tập trung"
+  },
+  "focusModeSub": {
+    "message": "Chỉ bảng tin. Không phân tâm."
+  },
+  "hideBadges": {
+    "message": "Huy hiệu thông báo"
+  },
+  "hideReactions": {
+    "message": "Số lượt phản ứng"
+  },
+  "hideComments": {
+    "message": "Số lượt bình luận"
+  },
+  "hideReposts": {
+    "message": "Số lượt đăng lại"
+  },
+  "hideCounts": {
+    "message": "Tổng người theo dõi & kết nối"
+  },
+  "hideViewed": {
+    "message": "Ai đã xem hồ sơ của bạn"
+  },
+  "hideSuggestions": {
+    "message": "Những người bạn có thể biết"
+  },
+  "hideTrending": {
+    "message": "Nội dung thịnh hành"
+  },
+  "scheduledFocus": {
+    "message": "Tập trung theo lịch"
+  },
+  "customSelector": {
+    "message": "Ẩn bằng bộ chọn tùy chỉnh"
+  },
+  "syncToggles": {
+    "message": "Đồng bộ trên các thiết bị"
+  },
+  "advancedGrayscale": {
+    "message": "Làm mờ & độ sáng nâng cao"
+  },
+  "upgradePro": {
+    "message": "Nâng cấp lên Pro"
+  }
+}

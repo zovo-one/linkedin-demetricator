@@ -1,0 +1,55 @@
+{
+  "extName": {
+    "message": "LinkedIn Demetricator — Oculte números e selos",
+    "description": "Extension name"
+  },
+  "extDesc": {
+    "message": "Oculte selos do LinkedIn, contagens de reações, seguidores e \"quem viu seu perfil\". CSS puro, 100% local, sem enviar dados.",
+    "description": "Extension description"
+  },
+  "focusMode": {
+    "message": "Modo foco"
+  },
+  "focusModeSub": {
+    "message": "Apenas o feed. Sem distrações."
+  },
+  "hideBadges": {
+    "message": "Selos de notificação"
+  },
+  "hideReactions": {
+    "message": "Contagens de reações"
+  },
+  "hideComments": {
+    "message": "Contagens de comentários"
+  },
+  "hideReposts": {
+    "message": "Contagens de republicações"
+  },
+  "hideCounts": {
+    "message": "Totais de seguidores e conexões"
+  },
+  "hideViewed": {
+    "message": "Quem viu seu perfil"
+  },
+  "hideSuggestions": {
+    "message": "Pessoas que você talvez conheça"
+  },
+  "hideTrending": {
+    "message": "Conteúdo em alta"
+  },
+  "scheduledFocus": {
+    "message": "Foco agendado"
+  },
+  "customSelector": {
+    "message": "Ocultar com seletor personalizado"
+  },
+  "syncToggles": {
+    "message": "Sincronizar entre dispositivos"
+  },
+  "advancedGrayscale": {
+    "message": "Escurecimento e brilho avançados"
+  },
+  "upgradePro": {
+    "message": "Fazer upgrade para Pro"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "extName": {
+    "message": "LinkedIn Demetricator — Ascunde cifre și insigne",
+    "description": "Extension name"
+  },
+  "extDesc": {
+    "message": "Ascunde insignele LinkedIn, numărul de reacții, de urmăritori și „cine ți-a văzut profilul”. CSS pur, 100% local.",
+    "description": "Extension description"
+  },
+  "focusMode": {
+    "message": "Mod de concentrare"
+  },
+  "focusModeSub": {
+    "message": "Doar fluxul. Fără distrageri."
+  },
+  "hideBadges": {
+    "message": "Insigne de notificare"
+  },
+  "hideReactions": {
+    "message": "Numărul de reacții"
+  },
+  "hideComments": {
+    "message": "Numărul de comentarii"
+  },
+  "hideReposts": {
+    "message": "Numărul de redistribuiri"
+  },
+  "hideCounts": {
+    "message": "Totaluri urmăritori și conexiuni"
+  },
+  "hideViewed": {
+    "message": "Cine ți-a văzut profilul"
+  },
+  "hideSuggestions": {
+    "message": "Persoane pe care le-ai putea cunoaște"
+  },
+  "hideTrending": {
+    "message": "Conținut în tendințe"
+  },
+  "scheduledFocus": {
+    "message": "Concentrare programată"
+  },
+  "customSelector": {
+    "message": "Ascundere cu selector personalizat"
+  },
+  "syncToggles": {
+    "message": "Sincronizare între dispozitive"
+  },
+  "advancedGrayscale": {
+    "message": "Estompare și luminozitate avansate"
+  },
+  "upgradePro": {
+    "message": "Treci la Pro"
+  }
+}

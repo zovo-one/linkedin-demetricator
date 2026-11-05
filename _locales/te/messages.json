@@ -1,0 +1,55 @@
+{
+  "extName": {
+    "message": "LinkedIn Demetricator — కౌంట్‌లు & బ్యాడ్జ్‌లను దాచండి",
+    "description": "Extension name"
+  },
+  "extDesc": {
+    "message": "LinkedIn బ్యాడ్జ్‌లు, రియాక్షన్ కౌంట్‌లు, ఫాలోవర్ మొత్తాలు దాచండి. స్వచ్ఛమైన CSS, 100% లోకల్, డేటా ఎక్కడికీ పంపబడదు.",
+    "description": "Extension description"
+  },
+  "focusMode": {
+    "message": "ఫోకస్ మోడ్"
+  },
+  "focusModeSub": {
+    "message": "ఫీడ్ మాత్రమే. ఆటంకాలు లేవు."
+  },
+  "hideBadges": {
+    "message": "నోటిఫికేషన్ బ్యాడ్జ్‌లు"
+  },
+  "hideReactions": {
+    "message": "రియాక్షన్ కౌంట్‌లు"
+  },
+  "hideComments": {
+    "message": "కామెంట్ కౌంట్‌లు"
+  },
+  "hideReposts": {
+    "message": "రీపోస్ట్ కౌంట్‌లు"
+  },
+  "hideCounts": {
+    "message": "ఫాలోవర్ & కనెక్షన్ మొత్తాలు"
+  },
+  "hideViewed": {
+    "message": "మీ ప్రొఫైల్‌ను ఎవరు చూశారు"
+  },
+  "hideSuggestions": {
+    "message": "మీకు తెలిసి ఉండవచ్చు"
+  },
+  "hideTrending": {
+    "message": "ట్రెండింగ్ కంటెంట్"
+  },
+  "scheduledFocus": {
+    "message": "షెడ్యూల్డ్ ఫోకస్"
+  },
+  "customSelector": {
+    "message": "కస్టమ్ సెలెక్టర్ దాచు"
+  },
+  "syncToggles": {
+    "message": "పరికరాల మధ్య సింక్"
+  },
+  "advancedGrayscale": {
+    "message": "అధునాతన మసకబారడం & ప్రకాశం"
+  },
+  "upgradePro": {
+    "message": "Pro కు అప్‌గ్రేడ్ చేయండి"
+  }
+}

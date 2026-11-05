@@ -1,0 +1,55 @@
+{
+  "extName": {
+    "message": "LinkedIn Demetricator — скрыть счётчики и значки",
+    "description": "Extension name"
+  },
+  "extDesc": {
+    "message": "Скрывайте значки, счётчики реакций, число подписчиков и «кто смотрел ваш профиль» в LinkedIn. Чистый CSS, 100% локально.",
+    "description": "Extension description"
+  },
+  "focusMode": {
+    "message": "Режим фокусировки"
+  },
+  "focusModeSub": {
+    "message": "Только лента. Без отвлечений."
+  },
+  "hideBadges": {
+    "message": "Значки уведомлений"
+  },
+  "hideReactions": {
+    "message": "Счётчики реакций"
+  },
+  "hideComments": {
+    "message": "Счётчики комментариев"
+  },
+  "hideReposts": {
+    "message": "Счётчики репостов"
+  },
+  "hideCounts": {
+    "message": "Число подписчиков и контактов"
+  },
+  "hideViewed": {
+    "message": "Кто смотрел ваш профиль"
+  },
+  "hideSuggestions": {
+    "message": "Люди, которых вы можете знать"
+  },
+  "hideTrending": {
+    "message": "Популярный контент"
+  },
+  "scheduledFocus": {
+    "message": "Фокусировка по расписанию"
+  },
+  "customSelector": {
+    "message": "Скрытие по своему селектору"
+  },
+  "syncToggles": {
+    "message": "Синхронизация между устройствами"
+  },
+  "advancedGrayscale": {
+    "message": "Расширенное затемнение и яркость"
+  },
+  "upgradePro": {
+    "message": "Перейти на Pro"
+  }
+}

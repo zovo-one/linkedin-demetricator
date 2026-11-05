@@ -1,0 +1,97 @@
+/* ============================================================================
+ * hide.css — LinkedIn Demetricator stylesheet
+ * ----------------------------------------------------------------------------
+ * Selector version: 2026-07-08-v1
+ *
+ * ALL rules are gated by <html>.zovo-li-* classes applied by toggle.ts
+ * at document_start. Default = visible (no classes = no hides).
+ *
+ * Target strategy (same as ig-hider): semantic anchors (aria-label,
+ * data-test-id, href patterns) with :has() fallbacks. LinkedIn minifies
+ * class names — they churn quarterly. Semantic attributes are stable.
+ *
+ * Maintenance: bump selector version on each release that updates selectors.
+ * ========================================================================== */
+
+/* ---- Notification badges (red dots) --------------------------------------- */
+html.zovo-li-hide-badges .global-nav__nav .notification-badge,
+html.zovo-li-hide-badges [data-test-global-nav-notification-badge],
+html.zovo-li-hide-badges .global-nav__notification-badge,
+html.zovo-li-hide-badges .nav-item__badge {
+  display: none !important;
+}
+
+/* ---- Reaction counts (like, insightful, celebrate) ------------------------ */
+html.zovo-li-hide-reactions .social-details-social-counts__reactions,
+html.zovo-li-hide-reactions [data-test-id="social-actions"] [aria-label*="reaction" i],
+html.zovo-li-hide-reactions [aria-label*="reactions" i] {
+  display: none !important;
+}
+
+/* ---- Comment counts ------------------------------------------------------- */
+html.zovo-li-hide-comments .social-details-social-counts__comments,
+html.zovo-li-hide-comments [data-test-id="social-actions"] a[href*="comments"],
+html.zovo-li-hide-comments [aria-label*="comment" i] {
+  display: none !important;
+}
+
+/* ---- Repost counts -------------------------------------------------------- */
+html.zovo-li-hide-reposts [data-test-id="social-actions"] button:has(span[class*="repost"]),
+html.zovo-li-hide-reposts [aria-label*="repost" i] {
+  display: none !important;
+}
+
+/* ---- Follower / connection totals ----------------------------------------- */
+html.zovo-li-hide-counts .dist-value,
+html.zovo-li-hide-counts [data-test-id*="connection"],
+html.zovo-li-hide-counts [aria-label*="followers" i],
+html.zovo-li-hide-counts [aria-label*="connections" i],
+html.zovo-li-hide-counts [href*="/followers/"],
+html.zovo-li-hide-counts [href*="connections"] {
+  display: none !important;
+}
+
+/* ---- "Who viewed your profile" nags --------------------------------------- */
+html.zovo-li-hide-viewed .profile-wvmp-who-viewed,
+html.zovo-li-hide-viewed [data-test-id*="viewed"],
+html.zovo-li-hide-viewed [aria-label*="Who viewed your profile" i],
+html.zovo-li-hide-viewed a[href*="/analytics/"],
+html.zovo-li-hide-viewed a[href*="/notifications/viewed"] {
+  display: none !important;
+}
+
+/* ---- "People you may know" suggestions ------------------------------------ */
+html.zovo-li-hide-suggestions .feed-shared-update--people-you-may-know,
+html.zovo-li-hide-suggestions [data-test-id*="pymk"],
+html.zovo-li-hide-suggestions [aria-label*="People you may know" i] {
+  display: none !important;
+}
+
+/* ---- Trending / suggested content ----------------------------------------- */
+html.zovo-li-hide-trending .feed-shared-module,
+html.zovo-li-hide-trending [data-test-id*="trending"],
+html.zovo-li-hide-trending [aria-label*="Trending" i] {
+  display: none !important;
+}
+
+/* ---- Focus Mode — hide everything except main feed ------------------------ */
+/* Careful: Focus Mode is opt-in only. When zovo-li-focus is on <html>,
+ * hide sidebar, right rail, trending modules — but never the whole UI. */
+html.zovo-li-focus aside,
+html.zovo-li-focus [data-test-id*="right-rail"],
+html.zovo-li-focus .scaffold-layout__aside {
+  display: none !important;
+}
+
+/* ---- Advanced grayscale (Pro) --------------------------------------------- */
+/* advancedGrayscale toggles both zovo-li-grayscale and zovo-li-advanced-grayscale. */
+html.zovo-li-grayscale img,
+html.zovo-li-grayscale video {
+  filter: grayscale(100%) !important;
+}
+
+/* Advanced grayscale adds brightness/dim control (Pro). */
+html.zovo-li-advanced-grayscale img,
+html.zovo-li-advanced-grayscale video {
+  filter: grayscale(100%) brightness(0.75) !important;
+}

@@ -1,0 +1,55 @@
+{
+  "extName": {
+    "message": "LinkedIn Demetricator — Számok és jelvények elrejtése",
+    "description": "Extension name"
+  },
+  "extDesc": {
+    "message": "Rejtsd el a LinkedIn jelvényeit, reakciószámait, követői számait és a \"ki nézte meg\"-et. Tiszta CSS, 100% helyi, nincs adatküldés.",
+    "description": "Extension description"
+  },
+  "focusMode": {
+    "message": "Fókusz mód"
+  },
+  "focusModeSub": {
+    "message": "Csak a hírfolyam. Semmi zavaró tényező."
+  },
+  "hideBadges": {
+    "message": "Értesítési jelvények"
+  },
+  "hideReactions": {
+    "message": "Reakciószámok"
+  },
+  "hideComments": {
+    "message": "Hozzászólásszámok"
+  },
+  "hideReposts": {
+    "message": "Megosztásszámok"
+  },
+  "hideCounts": {
+    "message": "Követői & kapcsolati összesítések"
+  },
+  "hideViewed": {
+    "message": "Ki nézte meg a profilodat"
+  },
+  "hideSuggestions": {
+    "message": "Ismerősként javasolt személyek"
+  },
+  "hideTrending": {
+    "message": "Népszerű tartalom"
+  },
+  "scheduledFocus": {
+    "message": "Ütemezett fókusz"
+  },
+  "customSelector": {
+    "message": "Egyéni választós elrejtés"
+  },
+  "syncToggles": {
+    "message": "Szinkronizálás eszközök között"
+  },
+  "advancedGrayscale": {
+    "message": "Speciális tompítás & fényerő"
+  },
+  "upgradePro": {
+    "message": "Frissítés Pro-ra"
+  }
+}

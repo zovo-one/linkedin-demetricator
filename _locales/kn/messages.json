@@ -1,0 +1,55 @@
+{
+  "extName": {
+    "message": "LinkedIn Demetricator — ಎಣಿಕೆ ಮತ್ತು ಬ್ಯಾಡ್ಜ್ ಮರೆಮಾಡಿ",
+    "description": "Extension name"
+  },
+  "extDesc": {
+    "message": "LinkedIn ಬ್ಯಾಡ್ಜ್‌ಗಳು, ರಿಯಾಕ್ಷನ್ ಎಣಿಕೆ, ಫಾಲೋವರ್ ಒಟ್ಟು ಮರೆಮಾಡಿ. ಶುದ್ಧ CSS, 100% ಲೋಕಲ್, ಡೇಟಾ ಎಲ್ಲಿಗೂ ಹೋಗದು.",
+    "description": "Extension description"
+  },
+  "focusMode": {
+    "message": "Focus Mode"
+  },
+  "focusModeSub": {
+    "message": "ಫೀಡ್ ಮಾತ್ರ. ಯಾವುದೇ ಗಮನಭಂಗವಿಲ್ಲ."
+  },
+  "hideBadges": {
+    "message": "ಅಧಿಸೂಚನೆ ಬ್ಯಾಡ್ಜ್‌ಗಳು"
+  },
+  "hideReactions": {
+    "message": "ರಿಯಾಕ್ಷನ್ ಎಣಿಕೆಗಳು"
+  },
+  "hideComments": {
+    "message": "ಕಾಮೆಂಟ್ ಎಣಿಕೆಗಳು"
+  },
+  "hideReposts": {
+    "message": "ರೀಪೋಸ್ಟ್ ಎಣಿಕೆಗಳು"
+  },
+  "hideCounts": {
+    "message": "ಫಾಲೋವರ್ ಮತ್ತು ಕನೆಕ್ಷನ್ ಒಟ್ಟುಗಳು"
+  },
+  "hideViewed": {
+    "message": "ನಿಮ್ಮ ಪ್ರೊಫೈಲ್‌ಅನ್ನು ಯಾರು ನೋಡಿದರು"
+  },
+  "hideSuggestions": {
+    "message": "ನಿಮಗೆ ಗೊತ್ತಿರಬಹುದಾದ ಜನರು"
+  },
+  "hideTrending": {
+    "message": "ಟ್ರೆಂಡಿಂಗ್ ವಿಷಯ"
+  },
+  "scheduledFocus": {
+    "message": "ನಿಗದಿತ ಫೋಕಸ್"
+  },
+  "customSelector": {
+    "message": "ಕಸ್ಟಮ್ ಸೆಲೆಕ್ಟರ್ ಮರೆಮಾಡುವಿಕೆ"
+  },
+  "syncToggles": {
+    "message": "ಸಾಧನಗಳ ನಡುವೆ ಸಿಂಕ್"
+  },
+  "advancedGrayscale": {
+    "message": "ಸುಧಾರಿತ ಡಿಮ್ ಮತ್ತು ಬ್ರೈಟ್‌ನೆಸ್"
+  },
+  "upgradePro": {
+    "message": "Pro ಗೆ ಅಪ್‌ಗ್ರೇಡ್ ಮಾಡಿ"
+  }
+}

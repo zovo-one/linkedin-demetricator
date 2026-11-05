@@ -1,0 +1,55 @@
+{
+  "extName": {
+    "message": "LinkedIn Demetricator — Piilota luvut ja merkit",
+    "description": "Extension name"
+  },
+  "extDesc": {
+    "message": "Piilota LinkedIn-merkit, reaktioluvut, seuraajamäärät ja „kuka katsoi sinua“. Pelkkää CSS:ää, 100 % paikallista, ei tiedonsiirtoa.",
+    "description": "Extension description"
+  },
+  "focusMode": {
+    "message": "Keskittymistila"
+  },
+  "focusModeSub": {
+    "message": "Vain syöte. Ei häiriötekijöitä."
+  },
+  "hideBadges": {
+    "message": "Ilmoitusmerkit"
+  },
+  "hideReactions": {
+    "message": "Reaktioluvut"
+  },
+  "hideComments": {
+    "message": "Kommenttiluvut"
+  },
+  "hideReposts": {
+    "message": "Jakoluvut"
+  },
+  "hideCounts": {
+    "message": "Seuraaja- & yhteyssummat"
+  },
+  "hideViewed": {
+    "message": "Kuka katsoi profiiliasi"
+  },
+  "hideSuggestions": {
+    "message": "Ehkä tunnet nämä henkilöt"
+  },
+  "hideTrending": {
+    "message": "Trendaava sisältö"
+  },
+  "scheduledFocus": {
+    "message": "Ajastettu keskittyminen"
+  },
+  "customSelector": {
+    "message": "Mukautetun valitsimen piilotus"
+  },
+  "syncToggles": {
+    "message": "Synkronointi laitteiden välillä"
+  },
+  "advancedGrayscale": {
+    "message": "Kehittynyt himmennys & kirkkaus"
+  },
+  "upgradePro": {
+    "message": "Päivitä Pro-versioon"
+  }
+}

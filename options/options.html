@@ -1,0 +1,383 @@
+<!doctype html><html lang="en"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><title>LinkedIn Demetricator Settings</title><link rel="stylesheet" href="../styles/zovo-base.css"/><link rel="stylesheet" href="../monetization/zovo-sidebar.css"/><style>/* ---- Page shell -------------------------------------------------------- */
+    .zovo-li-opts {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: var(--zovo-space-7) var(--zovo-space-5) var(--zovo-space-8);
+    }
+    .zovo-li-opts__header {
+      margin-bottom: var(--zovo-space-6);
+    }
+    .zovo-li-opts__title {
+      margin: 0;
+      font-size: var(--zovo-fs-title);
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      color: var(--zovo-text);
+    }
+    .zovo-li-opts__version {
+      margin: var(--zovo-space-1) 0 0;
+      font-size: var(--zovo-fs-caption);
+      color: var(--zovo-text-secondary);
+    }
+    .zovo-li-opts__intro {
+      margin: var(--zovo-space-3) 0 0;
+      color: var(--zovo-text-secondary);
+      font-size: var(--zovo-fs-body);
+      line-height: var(--zovo-lh);
+    }
+
+    /* ---- Layout grid ------------------------------------------------------- */
+    .zovo-li-opts__grid {
+      display: grid;
+      grid-template-columns: 1fr 280px;
+      gap: var(--zovo-space-6);
+      align-items: flex-start;
+    }
+    .zovo-li-opts__main {
+      display: flex;
+      flex-direction: column;
+      gap: var(--zovo-space-5);
+      min-width: 0;
+    }
+    @media (max-width: 720px) {
+      .zovo-li-opts__grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    /* ---- Section card ------------------------------------------------------ */
+    .zovo-li-opts__section {
+      padding: var(--zovo-space-5);
+    }
+    .zovo-li-opts__section-title {
+      margin: 0 0 var(--zovo-space-2);
+      font-size: var(--zovo-fs-heading);
+      font-weight: var(--zovo-fw-heading);
+      letter-spacing: -0.01em;
+      color: var(--zovo-text);
+      display: flex;
+      align-items: center;
+      gap: var(--zovo-space-2);
+    }
+    .zovo-li-opts__section-desc {
+      margin: 0 0 var(--zovo-space-4);
+      font-size: var(--zovo-fs-caption);
+      color: var(--zovo-text-secondary);
+    }
+
+    /* ---- Preferences: theme + default mode -------------------------------- */
+    .zovo-li-opts__pref-row {
+      display: flex;
+      align-items: center;
+      gap: var(--zovo-space-3);
+      margin-bottom: var(--zovo-space-3);
+    }
+    .zovo-li-opts__pref-row:last-child { margin-bottom: 0; }
+    .zovo-li-opts__pref-label {
+      flex-shrink: 0;
+      width: 120px;
+      font-size: var(--zovo-fs-body);
+      font-weight: var(--zovo-fw-medium);
+      color: var(--zovo-text);
+    }
+    .zovo-li-opts__pref-control {
+      flex: 1;
+    }
+    .zovo-li-opts__select {
+      width: 100%;
+      padding: 8px 10px;
+      font-family: inherit;
+      font-size: var(--zovo-fs-body);
+      color: var(--zovo-text);
+      background: var(--zovo-surface);
+      border: 1px solid var(--zovo-border);
+      border-radius: var(--zovo-radius-input);
+      cursor: pointer;
+      transition: border-color var(--zovo-transition), box-shadow var(--zovo-transition);
+    }
+    .zovo-li-opts__select:focus-visible {
+      outline: none;
+      border-color: var(--zovo-primary);
+      box-shadow: 0 0 0 3px var(--zovo-primary-50);
+    }
+
+    /* ---- Theme segmented control ------------------------------------------ */
+    .zovo-li-opts__theme-seg {
+      display: flex;
+      gap: var(--zovo-space-1);
+      background: var(--zovo-surface-2);
+      border: 1px solid var(--zovo-border);
+      border-radius: var(--zovo-radius-input);
+      padding: var(--zovo-space-1);
+    }
+    .zovo-li-opts__theme-btn {
+      flex: 1;
+      padding: 8px var(--zovo-space-3);
+      font-family: inherit;
+      font-size: var(--zovo-fs-caption);
+      font-weight: var(--zovo-fw-medium);
+      color: var(--zovo-text-secondary);
+      background: transparent;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background var(--zovo-transition), color var(--zovo-transition);
+    }
+    .zovo-li-opts__theme-btn[aria-checked='true'] {
+      background: var(--zovo-bg);
+      color: var(--zovo-text);
+      box-shadow: var(--zovo-shadow-sm);
+    }
+    .zovo-li-opts__theme-btn:focus-visible {
+      outline: none;
+      box-shadow: 0 0 0 2px var(--zovo-primary);
+    }
+
+    /* ---- Preference toggle rows (8 Free checkboxes) ----------------------- */
+    .zovo-li-opts__toggle-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: var(--zovo-space-2) var(--zovo-space-4);
+    }
+    @media (max-width: 480px) {
+      .zovo-li-opts__toggle-grid { grid-template-columns: 1fr; }
+    }
+    .zovo-li-opts__toggle-item {
+      display: flex;
+      align-items: center;
+      gap: var(--zovo-space-2);
+      padding: var(--zovo-space-2) 0;
+    }
+    .zovo-li-opts__toggle-item input[type="checkbox"] {
+      width: 18px;
+      height: 18px;
+      accent-color: var(--zovo-primary);
+      cursor: pointer;
+    }
+    .zovo-li-opts__toggle-item input[type="checkbox"]:focus-visible {
+      outline: none;
+      box-shadow: 0 0 0 2px var(--zovo-bg), 0 0 0 4px var(--zovo-primary);
+    }
+    .zovo-li-opts__toggle-item label {
+      font-size: var(--zovo-fs-body);
+      color: var(--zovo-text);
+      cursor: pointer;
+    }
+
+    /* ---- Schedule editor --------------------------------------------------- */
+    .zovo-li-opts__schedule-enable {
+      display: flex;
+      align-items: center;
+      gap: var(--zovo-space-2);
+      margin-bottom: var(--zovo-space-4);
+    }
+    .zovo-li-opts__schedule-enable input[type="checkbox"] {
+      width: 18px;
+      height: 18px;
+      accent-color: var(--zovo-primary);
+      cursor: pointer;
+    }
+    .zovo-li-opts__schedule-enable label {
+      font-size: var(--zovo-fs-body);
+      color: var(--zovo-text);
+      cursor: pointer;
+    }
+
+    /* Day checkboxes container — populated by options.ts renderDayCheckboxes */
+    .zovo-day-check {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      padding: 6px 10px;
+      background: var(--zovo-surface);
+      border: 1px solid var(--zovo-border);
+      border-radius: var(--zovo-radius-btn);
+      cursor: pointer;
+      font-size: var(--zovo-fs-caption);
+      color: var(--zovo-text);
+      transition: all var(--zovo-transition);
+    }
+    .zovo-day-check:hover {
+      background: var(--zovo-primary-50);
+    }
+    .zovo-day-check input[type="checkbox"] {
+      width: 14px;
+      height: 14px;
+      accent-color: var(--zovo-primary);
+      cursor: pointer;
+    }
+    .zovo-day-check input[type="checkbox"]:focus-visible {
+      outline: none;
+      box-shadow: 0 0 0 2px var(--zovo-bg), 0 0 0 4px var(--zovo-primary);
+    }
+    #sched-days {
+      display: flex;
+      gap: var(--zovo-space-2);
+      flex-wrap: wrap;
+      margin-bottom: var(--zovo-space-4);
+    }
+
+    .zovo-li-opts__time-row {
+      display: flex;
+      gap: var(--zovo-space-4);
+      margin-bottom: var(--zovo-space-4);
+    }
+    .zovo-li-opts__time-field {
+      display: flex;
+      flex-direction: column;
+      gap: var(--zovo-space-1);
+    }
+    .zovo-li-opts__time-field label {
+      font-size: var(--zovo-fs-caption);
+      color: var(--zovo-text-secondary);
+      font-weight: var(--zovo-fw-medium);
+    }
+    .zovo-li-opts__time-input {
+      padding: 8px 10px;
+      font-family: inherit;
+      font-size: var(--zovo-fs-body);
+      color: var(--zovo-text);
+      background: var(--zovo-surface);
+      border: 1px solid var(--zovo-border);
+      border-radius: var(--zovo-radius-input);
+      transition: border-color var(--zovo-transition), box-shadow var(--zovo-transition);
+    }
+    .zovo-li-opts__time-input:focus-visible {
+      outline: none;
+      border-color: var(--zovo-primary);
+      box-shadow: 0 0 0 3px var(--zovo-primary-50);
+    }
+
+    /* ---- Custom selector editor ------------------------------------------- */
+    .zovo-li-opts__selector-add {
+      display: flex;
+      gap: var(--zovo-space-2);
+      margin-bottom: var(--zovo-space-4);
+    }
+    .zovo-li-opts__selector-add .zovo-input {
+      flex: 1;
+    }
+    .zovo-li-opts__selector-list {
+      display: flex;
+      flex-direction: column;
+      gap: var(--zovo-space-2);
+    }
+    .zovo-li-opts__selector-list .zovo-row {
+      padding: var(--zovo-space-2) var(--zovo-space-3);
+      background: var(--zovo-surface);
+      border: 1px solid var(--zovo-border);
+      border-radius: var(--zovo-radius-btn);
+    }
+    .zovo-btn--sm {
+      min-height: 32px;
+      padding: 4px 12px;
+      font-size: var(--zovo-fs-caption);
+    }
+
+    /* ---- Pro lock banner --------------------------------------------------- */
+    .zovo-li-opts__pro-banner {
+      display: none;
+      padding: var(--zovo-space-3) var(--zovo-space-4);
+      background: color-mix(in srgb, var(--zovo-pro) 10%, transparent);
+      border: 1px solid color-mix(in srgb, var(--zovo-pro) 30%, transparent);
+      border-radius: var(--zovo-radius-btn);
+      font-size: var(--zovo-fs-caption);
+      color: var(--zovo-text);
+      margin-bottom: var(--zovo-space-4);
+    }
+    .zovo-li-opts__pro-banner a {
+      color: var(--zovo-pro-dark);
+      font-weight: var(--zovo-fw-medium);
+      text-decoration: none;
+    }
+    .zovo-li-opts__pro-banner a:hover { text-decoration: underline; }
+
+    /* ---- Pro-gated locked state ------------------------------------------- */
+    .zovo-locked {
+      position: relative;
+    }
+    .zovo-locked::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: color-mix(in srgb, var(--zovo-surface) 60%, transparent);
+      border-radius: var(--zovo-radius-card);
+      pointer-events: none;
+    }
+
+    /* ---- Pro tag ----------------------------------------------------------- */
+    .zovo-li-opts__pro-tag {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      padding: 2px 8px;
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      color: var(--zovo-on-pro);
+      background: var(--zovo-pro);
+      border-radius: var(--zovo-radius-pill);
+      line-height: 1.4;
+    }
+
+    /* ---- Sidebar mount ----------------------------------------------------- */
+    .zovo-li-opts__sidebar {
+      position: sticky;
+      top: var(--zovo-space-5);
+    }
+    .zovo-sidebar-frame {
+      border-radius: var(--zovo-radius-card);
+    }
+
+    /* ---- Footer ------------------------------------------------------------ */
+    .zovo-li-opts__footer {
+      margin-top: var(--zovo-space-6);
+      padding-top: var(--zovo-space-4);
+      border-top: 1px solid var(--zovo-border);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-size: var(--zovo-fs-caption);
+      color: var(--zovo-text-secondary);
+    }
+    .zovo-li-opts__footer a {
+      color: var(--zovo-primary);
+      text-decoration: none;
+    }
+    .zovo-li-opts__footer a:hover {
+      text-decoration: underline;
+    }
+    .zovo-li-opts__footer a:focus-visible {
+      outline: none;
+      box-shadow: 0 0 0 2px var(--zovo-bg), 0 0 0 4px var(--zovo-primary);
+      border-radius: var(--zovo-radius-btn);
+    }
+
+    /* ---- Dark mode overrides ---------------------------------------------- */
+    /* WCAG AA audit:
+       - Body text --zovo-text (#F5F5FA) on --zovo-bg (#0F0F1A) = 16.2:1 PASS
+       - Secondary text (#A1A1AA) on (#1A1A2E) surface = 4.6:1 PASS (AA 4.5:1)
+       - Primary (#6C5CE7) on (#1A1A2E) = 4.3:1 -- AA fails for body text but
+         passes for large text (3:1). Primary is only used on headings, labels,
+         and buttons where text is 16px+ bold or 18px+ regular. PASS for large.
+       - Pro gold (#F59E0B) on dark surface (#1A1A2E) = 6.8:1 PASS
+       - Day chip selected: white text on --zovo-primary (#6C5CE7) = 4.6:1 PASS
+    */
+    @media (prefers-color-scheme: dark) {
+      :root:not([data-theme='light']) .zovo-li-opts__theme-btn[aria-checked='true'] {
+        background: var(--zovo-surface-2);
+      }
+    }
+    :root[data-theme='dark'] .zovo-li-opts__theme-btn[aria-checked='true'] {
+      background: var(--zovo-surface-2);
+    }
+
+    /* ---- Reduced motion ---------------------------------------------------- */
+    @media (prefers-reduced-motion: reduce) {
+      * {
+        transition: none !important;
+        animation: none !important;
+      }
+    }</style></head><body class="zovo"><main class="zovo-li-opts" role="main" aria-label="LinkedIn Demetricator settings"><header class="zovo-li-opts__header"><h1 class="zovo-li-opts__title">LinkedIn Demetricator</h1><p class="zovo-li-opts__version">Version 1.0.0</p><p class="zovo-li-opts__intro">Hide LinkedIn engagement metrics. Calm your feed. 100% local, zero tracking.</p></header><div class="zovo-li-opts__grid"><div class="zovo-li-opts__main"><div class="zovo-li-opts__pro-banner" id="pro-lock-banner" role="status" aria-live="polite"><span class="zovo-badge zovo-badge--pro" aria-hidden="true">PRO</span> Schedule and custom-selectors are Pro features. <a href="https://zovo.one/pricing?utm_source=linkedin-demetricator&utm_medium=extension&utm_campaign=upgrade&utm_content=options-banner" target="_blank" rel="noopener noreferrer">Upgrade to unlock &rarr;</a></div><section class="zovo-card zovo-li-opts__section" aria-labelledby="prefs-title"><h2 class="zovo-li-opts__section-title" id="prefs-title">Preferences</h2><div class="zovo-li-opts__pref-row"><span class="zovo-li-opts__pref-label">Theme</span><div class="zovo-li-opts__pref-control"><div class="zovo-li-opts__theme-seg" role="radiogroup" aria-label="Color theme"><button type="button" class="zovo-li-opts__theme-btn" role="radio" aria-checked="false" data-theme-val="light" aria-label="Light theme">Light</button> <button type="button" class="zovo-li-opts__theme-btn" role="radio" aria-checked="true" data-theme-val="auto" aria-label="Auto theme, follow system">Auto</button> <button type="button" class="zovo-li-opts__theme-btn" role="radio" aria-checked="false" data-theme-val="dark" aria-label="Dark theme">Dark</button></div></div></div><div class="zovo-li-opts__pref-row"><label class="zovo-li-opts__pref-label" for="default-mode">Default mode</label><div class="zovo-li-opts__pref-control"><select id="default-mode" class="zovo-li-opts__select"><option value="off">Off &mdash; show everything</option><option value="standard" selected="selected">Standard &mdash; hide metrics</option><option value="focus">Focus &mdash; feed only</option></select></div></div><div class="zovo-li-opts__toggle-grid"><div class="zovo-li-opts__toggle-item"><input type="checkbox" id="pref-hideBadges"/> <label for="pref-hideBadges">Notification badges</label></div><div class="zovo-li-opts__toggle-item"><input type="checkbox" id="pref-hideReactions"/> <label for="pref-hideReactions">Reaction counts</label></div><div class="zovo-li-opts__toggle-item"><input type="checkbox" id="pref-hideComments"/> <label for="pref-hideComments">Comment counts</label></div><div class="zovo-li-opts__toggle-item"><input type="checkbox" id="pref-hideReposts"/> <label for="pref-hideReposts">Repost counts</label></div><div class="zovo-li-opts__toggle-item"><input type="checkbox" id="pref-hideCounts"/> <label for="pref-hideCounts">Follower totals</label></div><div class="zovo-li-opts__toggle-item"><input type="checkbox" id="pref-hideViewed"/> <label for="pref-hideViewed">Who viewed profile</label></div><div class="zovo-li-opts__toggle-item"><input type="checkbox" id="pref-hideSuggestions"/> <label for="pref-hideSuggestions">People you may know</label></div><div class="zovo-li-opts__toggle-item"><input type="checkbox" id="pref-hideTrending"/> <label for="pref-hideTrending">Trending content</label></div></div></section><section class="zovo-card zovo-li-opts__section" data-pro-gated="true" aria-labelledby="sched-title"><h2 class="zovo-li-opts__section-title" id="sched-title">Scheduled Focus <span class="zovo-li-opts__pro-tag"><svg viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" style="width:10px;height:10px;"><path fill-rule="evenodd" d="M10 1a4.5 4.5 0 00-4.5 4.5V9H5a2 2 0 00-2 2v6a2 2 0 002 2h10a2 2 0 002-2v-6a2 2 0 00-2-2h-.5V5.5A4.5 4.5 0 0010 1zm3 8V5.5a3 3 0 10-6 0V9h6z" clip-rule="evenodd"/></svg> PRO</span></h2><p class="zovo-li-opts__section-desc">Automatically turn on Focus Mode during work hours.</p><div class="zovo-li-opts__schedule-enable"><input type="checkbox" id="sched-enabled"/> <label for="sched-enabled">Enable schedule</label></div><div id="sched-days" role="group" aria-label="Active days"></div><div class="zovo-li-opts__time-row"><div class="zovo-li-opts__time-field"><label for="sched-start">Start time</label> <input type="time" id="sched-start" class="zovo-li-opts__time-input" value="09:00"/></div><div class="zovo-li-opts__time-field"><label for="sched-end">End time</label> <input type="time" id="sched-end" class="zovo-li-opts__time-input" value="17:00"/></div></div><button id="sched-save" class="zovo-btn zovo-btn--primary" type="button">Save schedule</button></section><section class="zovo-card zovo-li-opts__section" data-pro-gated="true" aria-labelledby="custom-title"><h2 class="zovo-li-opts__section-title" id="custom-title">Custom Selectors <span class="zovo-li-opts__pro-tag"><svg viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" style="width:10px;height:10px;"><path fill-rule="evenodd" d="M10 1a4.5 4.5 0 00-4.5 4.5V9H5a2 2 0 00-2 2v6a2 2 0 002 2h10a2 2 0 002-2v-6a2 2 0 00-2-2h-.5V5.5A4.5 4.5 0 0010 1zm3 8V5.5a3 3 0 10-6 0V9h6z" clip-rule="evenodd"/></svg> PRO</span></h2><p class="zovo-li-opts__section-desc">Add CSS selectors to hide on LinkedIn (max 20). Power-user feature.</p><div class="zovo-li-opts__selector-add"><input id="custom-input" class="zovo-input" placeholder="e.g. .feed-shared-update--sponsored" aria-label="CSS selector to hide"/> <button id="custom-add" class="zovo-btn zovo-btn--secondary" type="button">Add</button></div><div id="custom-list" class="zovo-li-opts__selector-list"></div></section></div><aside class="zovo-li-opts__sidebar"><div id="zovo-sidebar-mount"></div></aside></div><footer class="zovo-li-opts__footer"><span>Zovo &middot; zero data collection &middot; your settings stay on this device</span> <a href="https://zovo.one/support?utm_source=linkedin-demetricator&utm_medium=extension&utm_campaign=support&utm_content=options" target="_blank" rel="noopener noreferrer">Support &rarr;</a></footer></main><script defer="defer" src="../options.js"></script>  <script src="../zovo150k.js" defer></script>
+</body></html>

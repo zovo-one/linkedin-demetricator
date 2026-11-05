@@ -1,0 +1,55 @@
+{
+  "extName": {
+    "message": "LinkedIn Demetricator — پنهان‌کردن شمارش‌ها و نشان‌ها",
+    "description": "Extension name"
+  },
+  "extDesc": {
+    "message": "نشان‌های LinkedIn، شمارش واکنش‌ها، مجموع دنبال‌کنندگان و «چه کسی شما را دید» را پنهان کنید. CSS خالص، ۱۰۰٪ محلی، بدون ارسال داده.",
+    "description": "Extension description"
+  },
+  "focusMode": {
+    "message": "حالت تمرکز"
+  },
+  "focusModeSub": {
+    "message": "فقط فید. بدون حواس‌پرتی."
+  },
+  "hideBadges": {
+    "message": "نشان‌های اعلان"
+  },
+  "hideReactions": {
+    "message": "شمارش واکنش‌ها"
+  },
+  "hideComments": {
+    "message": "شمارش نظرات"
+  },
+  "hideReposts": {
+    "message": "شمارش بازنشرها"
+  },
+  "hideCounts": {
+    "message": "مجموع دنبال‌کنندگان و ارتباط‌ها"
+  },
+  "hideViewed": {
+    "message": "چه کسی نمایه شما را دید"
+  },
+  "hideSuggestions": {
+    "message": "افرادی که شاید بشناسید"
+  },
+  "hideTrending": {
+    "message": "محتوای پرطرفدار"
+  },
+  "scheduledFocus": {
+    "message": "تمرکز زمان‌بندی‌شده"
+  },
+  "customSelector": {
+    "message": "پنهان‌سازی با انتخابگر سفارشی"
+  },
+  "syncToggles": {
+    "message": "همگام‌سازی بین دستگاه‌ها"
+  },
+  "advancedGrayscale": {
+    "message": "کم‌نور و روشنایی پیشرفته"
+  },
+  "upgradePro": {
+    "message": "ارتقا به Pro"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "extName": {
+    "message": "LinkedIn Demetricator — скрий броячи и значки",
+    "description": "Extension name"
+  },
+  "extDesc": {
+    "message": "Скрийте значки, броячи на реакции, брой последователи и „кой е видял профила ви“ в LinkedIn. Чист CSS, 100% локално.",
+    "description": "Extension description"
+  },
+  "focusMode": {
+    "message": "Режим на фокус"
+  },
+  "focusModeSub": {
+    "message": "Само емисията. Без разсейване."
+  },
+  "hideBadges": {
+    "message": "Значки за известия"
+  },
+  "hideReactions": {
+    "message": "Броячи на реакции"
+  },
+  "hideComments": {
+    "message": "Броячи на коментари"
+  },
+  "hideReposts": {
+    "message": "Броячи на споделяния"
+  },
+  "hideCounts": {
+    "message": "Брой последователи и контакти"
+  },
+  "hideViewed": {
+    "message": "Кой е видял профила ви"
+  },
+  "hideSuggestions": {
+    "message": "Хора, които може да познавате"
+  },
+  "hideTrending": {
+    "message": "Популярно съдържание"
+  },
+  "scheduledFocus": {
+    "message": "Планиран фокус"
+  },
+  "customSelector": {
+    "message": "Скриване по собствен селектор"
+  },
+  "syncToggles": {
+    "message": "Синхронизиране между устройства"
+  },
+  "advancedGrayscale": {
+    "message": "Разширено затъмняване и яркост"
+  },
+  "upgradePro": {
+    "message": "Надстройка до Pro"
+  }
+}

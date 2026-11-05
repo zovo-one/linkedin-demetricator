@@ -1,0 +1,55 @@
+{
+  "extName": {
+    "message": "LinkedIn Demetricator — Sayıları ve Rozetleri Gizle",
+    "description": "Extension name"
+  },
+  "extDesc": {
+    "message": "LinkedIn rozetlerini, tepki sayılarını, takipçi toplamlarını ve \"seni kim gördü\"yü gizle. Saf CSS, %100 yerel, veri gönderilmez.",
+    "description": "Extension description"
+  },
+  "focusMode": {
+    "message": "Odak Modu"
+  },
+  "focusModeSub": {
+    "message": "Yalnızca akış. Dikkat dağıtıcı yok."
+  },
+  "hideBadges": {
+    "message": "Bildirim rozetleri"
+  },
+  "hideReactions": {
+    "message": "Tepki sayıları"
+  },
+  "hideComments": {
+    "message": "Yorum sayıları"
+  },
+  "hideReposts": {
+    "message": "Yeniden paylaşım sayıları"
+  },
+  "hideCounts": {
+    "message": "Takipçi ve bağlantı toplamları"
+  },
+  "hideViewed": {
+    "message": "Profilini kim görüntüledi"
+  },
+  "hideSuggestions": {
+    "message": "Tanıyor olabileceğin kişiler"
+  },
+  "hideTrending": {
+    "message": "Gündemdeki içerik"
+  },
+  "scheduledFocus": {
+    "message": "Zamanlanmış odak"
+  },
+  "customSelector": {
+    "message": "Özel seçici gizleme"
+  },
+  "syncToggles": {
+    "message": "Cihazlar arası eşitleme"
+  },
+  "advancedGrayscale": {
+    "message": "Gelişmiş karartma ve parlaklık"
+  },
+  "upgradePro": {
+    "message": "Pro'ya yükselt"
+  }
+}

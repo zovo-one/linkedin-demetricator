@@ -1,0 +1,55 @@
+{
+  "extName": {
+    "message": "LinkedIn Demetricator — કાઉન્ટ અને બૅજ છુપાવો",
+    "description": "Extension name"
+  },
+  "extDesc": {
+    "message": "LinkedIn બૅજ, રિએક્શન કાઉન્ટ, ફોલોઅર કુલ અને \"તમને કોણે જોયા\" છુપાવો. શુદ્ધ CSS, 100% લોકલ, ક્યાંય ડેટા મોકલાતો નથી.",
+    "description": "Extension description"
+  },
+  "focusMode": {
+    "message": "Focus Mode"
+  },
+  "focusModeSub": {
+    "message": "માત્ર ફીડ. કોઈ ધ્યાનભંગ નહીં."
+  },
+  "hideBadges": {
+    "message": "નોટિફિકેશન બૅજ"
+  },
+  "hideReactions": {
+    "message": "રિએક્શન કાઉન્ટ"
+  },
+  "hideComments": {
+    "message": "કોમેન્ટ કાઉન્ટ"
+  },
+  "hideReposts": {
+    "message": "રીપોસ્ટ કાઉન્ટ"
+  },
+  "hideCounts": {
+    "message": "ફોલોઅર અને કનેક્શન કુલ"
+  },
+  "hideViewed": {
+    "message": "તમારી પ્રોફાઇલ કોણે જોઈ"
+  },
+  "hideSuggestions": {
+    "message": "જેમને તમે ઓળખતા હો તેવા લોકો"
+  },
+  "hideTrending": {
+    "message": "ટ્રેન્ડિંગ સામગ્રી"
+  },
+  "scheduledFocus": {
+    "message": "શેડ્યૂલ કરેલ ફોકસ"
+  },
+  "customSelector": {
+    "message": "કસ્ટમ સિલેક્ટર છુપાવો"
+  },
+  "syncToggles": {
+    "message": "ડિવાઇસ વચ્ચે સિંક કરો"
+  },
+  "advancedGrayscale": {
+    "message": "અદ્યતન ડિમ અને બ્રાઇટનેસ"
+  },
+  "upgradePro": {
+    "message": "Pro માં અપગ્રેડ કરો"
+  }
+}

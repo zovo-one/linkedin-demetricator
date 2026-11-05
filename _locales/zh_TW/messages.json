@@ -1,0 +1,55 @@
+{
+  "extName": {
+    "message": "LinkedIn Demetricator — 隱藏計數與徽章",
+    "description": "Extension name"
+  },
+  "extDesc": {
+    "message": "隱藏 LinkedIn 徽章、按讚數、追蹤者總數和\"誰查看了你\"。純 CSS，100% 本機運行，不向任何地方傳送資料。",
+    "description": "Extension description"
+  },
+  "focusMode": {
+    "message": "專注模式"
+  },
+  "focusModeSub": {
+    "message": "僅顯示動態。沒有干擾。"
+  },
+  "hideBadges": {
+    "message": "通知徽章"
+  },
+  "hideReactions": {
+    "message": "按讚數"
+  },
+  "hideComments": {
+    "message": "留言數"
+  },
+  "hideReposts": {
+    "message": "轉發數"
+  },
+  "hideCounts": {
+    "message": "追蹤者與人脈總數"
+  },
+  "hideViewed": {
+    "message": "誰查看了你的個人檔案"
+  },
+  "hideSuggestions": {
+    "message": "你可能認識的人"
+  },
+  "hideTrending": {
+    "message": "熱門內容"
+  },
+  "scheduledFocus": {
+    "message": "排程專注"
+  },
+  "customSelector": {
+    "message": "自訂選擇器隱藏"
+  },
+  "syncToggles": {
+    "message": "跨裝置同步"
+  },
+  "advancedGrayscale": {
+    "message": "進階變暗與亮度"
+  },
+  "upgradePro": {
+    "message": "升級至 Pro"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "extName": {
+    "message": "LinkedIn Demetricator — הסתרת ספירות ותגים",
+    "description": "Extension name"
+  },
+  "extDesc": {
+    "message": "הסתר תגי LinkedIn, ספירות תגובות, סכומי עוקבים ו\"מי צפה בך\". CSS טהור, 100% מקומי, אין שליחת נתונים לשום מקום.",
+    "description": "Extension description"
+  },
+  "focusMode": {
+    "message": "מצב מיקוד"
+  },
+  "focusModeSub": {
+    "message": "רק הפיד. ללא הסחות דעת."
+  },
+  "hideBadges": {
+    "message": "תגי התראה"
+  },
+  "hideReactions": {
+    "message": "ספירות תגובות"
+  },
+  "hideComments": {
+    "message": "ספירות תגוביות"
+  },
+  "hideReposts": {
+    "message": "ספירות שיתופים מחדש"
+  },
+  "hideCounts": {
+    "message": "סכומי עוקבים וקשרים"
+  },
+  "hideViewed": {
+    "message": "מי צפה בפרופיל שלך"
+  },
+  "hideSuggestions": {
+    "message": "אנשים שאולי אתה מכיר"
+  },
+  "hideTrending": {
+    "message": "תוכן פופולרי"
+  },
+  "scheduledFocus": {
+    "message": "מיקוד מתוזמן"
+  },
+  "customSelector": {
+    "message": "הסתרה עם בורר מותאם אישית"
+  },
+  "syncToggles": {
+    "message": "סנכרון בין מכשירים"
+  },
+  "advancedGrayscale": {
+    "message": "עמעום ובהירות מתקדמים"
+  },
+  "upgradePro": {
+    "message": "שדרג ל-Pro"
+  }
+}

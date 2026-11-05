@@ -1,0 +1,55 @@
+{
+  "extName": {
+    "message": "LinkedIn Demetricator — Zahlen & Badges ausblenden",
+    "description": "Extension name"
+  },
+  "extDesc": {
+    "message": "Blende LinkedIn-Badges, Reaktionszahlen, Follower und „Wer hat dich angesehen“ aus. Reines CSS, 100 % lokal, keine Daten gesendet.",
+    "description": "Extension description"
+  },
+  "focusMode": {
+    "message": "Fokusmodus"
+  },
+  "focusModeSub": {
+    "message": "Nur Feed. Keine Ablenkungen."
+  },
+  "hideBadges": {
+    "message": "Benachrichtigungs-Badges"
+  },
+  "hideReactions": {
+    "message": "Reaktionszahlen"
+  },
+  "hideComments": {
+    "message": "Kommentarzahlen"
+  },
+  "hideReposts": {
+    "message": "Repost-Zahlen"
+  },
+  "hideCounts": {
+    "message": "Follower- & Kontaktzahlen"
+  },
+  "hideViewed": {
+    "message": "Wer hat dein Profil angesehen"
+  },
+  "hideSuggestions": {
+    "message": "Personen, die du kennen könntest"
+  },
+  "hideTrending": {
+    "message": "Trending-Inhalte"
+  },
+  "scheduledFocus": {
+    "message": "Geplanter Fokus"
+  },
+  "customSelector": {
+    "message": "Ausblenden per eigenem Selektor"
+  },
+  "syncToggles": {
+    "message": "Geräteübergreifend synchronisieren"
+  },
+  "advancedGrayscale": {
+    "message": "Erweitertes Abdunkeln & Helligkeit"
+  },
+  "upgradePro": {
+    "message": "Auf Pro upgraden"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "extName": {
+    "message": "LinkedIn Demetricator — ukryj liczniki i odznaki",
+    "description": "Extension name"
+  },
+  "extDesc": {
+    "message": "Ukryj odznaki, liczniki reakcji, liczbę obserwujących i „kto oglądał Twój profil” w LinkedIn. Czysty CSS, 100% lokalnie.",
+    "description": "Extension description"
+  },
+  "focusMode": {
+    "message": "Tryb skupienia"
+  },
+  "focusModeSub": {
+    "message": "Tylko kanał. Bez rozpraszaczy."
+  },
+  "hideBadges": {
+    "message": "Odznaki powiadomień"
+  },
+  "hideReactions": {
+    "message": "Liczniki reakcji"
+  },
+  "hideComments": {
+    "message": "Liczniki komentarzy"
+  },
+  "hideReposts": {
+    "message": "Liczniki udostępnień"
+  },
+  "hideCounts": {
+    "message": "Liczba obserwujących i kontaktów"
+  },
+  "hideViewed": {
+    "message": "Kto oglądał Twój profil"
+  },
+  "hideSuggestions": {
+    "message": "Osoby, które możesz znać"
+  },
+  "hideTrending": {
+    "message": "Popularne treści"
+  },
+  "scheduledFocus": {
+    "message": "Zaplanowane skupienie"
+  },
+  "customSelector": {
+    "message": "Ukrywanie własnym selektorem"
+  },
+  "syncToggles": {
+    "message": "Synchronizacja między urządzeniami"
+  },
+  "advancedGrayscale": {
+    "message": "Zaawansowane przyciemnianie i jasność"
+  },
+  "upgradePro": {
+    "message": "Przejdź na Pro"
+  }
+}

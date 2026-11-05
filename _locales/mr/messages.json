@@ -1,0 +1,55 @@
+{
+  "extName": {
+    "message": "LinkedIn Demetricator — काउंट आणि बॅज लपवा",
+    "description": "Extension name"
+  },
+  "extDesc": {
+    "message": "LinkedIn बॅज, रिअॅक्शन काउंट, फॉलोअर एकूण आणि \"तुम्हाला कोणी पाहिले\" लपवा. शुद्ध CSS, 100% लोकल, कुठेही डेटा पाठवला जात नाही.",
+    "description": "Extension description"
+  },
+  "focusMode": {
+    "message": "फोकस मोड"
+  },
+  "focusModeSub": {
+    "message": "फक्त फीड. कोणतेही विचलन नाही."
+  },
+  "hideBadges": {
+    "message": "सूचना बॅज"
+  },
+  "hideReactions": {
+    "message": "रिअॅक्शन काउंट"
+  },
+  "hideComments": {
+    "message": "कमेंट काउंट"
+  },
+  "hideReposts": {
+    "message": "रीपोस्ट काउंट"
+  },
+  "hideCounts": {
+    "message": "फॉलोअर व कनेक्शन एकूण"
+  },
+  "hideViewed": {
+    "message": "तुमचे प्रोफाइल कोणी पाहिले"
+  },
+  "hideSuggestions": {
+    "message": "तुम्हाला माहीत असू शकतील असे लोक"
+  },
+  "hideTrending": {
+    "message": "ट्रेंडिंग सामग्री"
+  },
+  "scheduledFocus": {
+    "message": "नियोजित फोकस"
+  },
+  "customSelector": {
+    "message": "सानुकूल सिलेक्टर लपवा"
+  },
+  "syncToggles": {
+    "message": "डिव्हाइसेसमध्ये सिंक करा"
+  },
+  "advancedGrayscale": {
+    "message": "प्रगत डिम व ब्राइटनेस"
+  },
+  "upgradePro": {
+    "message": "Pro मध्ये अपग्रेड करा"
+  }
+}

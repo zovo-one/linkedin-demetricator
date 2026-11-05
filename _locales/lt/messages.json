@@ -1,0 +1,55 @@
+{
+  "extName": {
+    "message": "LinkedIn Demetricator — slėpti skaičius ir ženklelius",
+    "description": "Extension name"
+  },
+  "extDesc": {
+    "message": "Slėpkite LinkedIn ženklelius, reakcijų skaičius, sekėjų sumas ir „kas jus peržiūrėjo“. Grynas CSS, 100% vietinis, be duomenų.",
+    "description": "Extension description"
+  },
+  "focusMode": {
+    "message": "Susikaupimo režimas"
+  },
+  "focusModeSub": {
+    "message": "Tik srautas. Jokių trukdžių."
+  },
+  "hideBadges": {
+    "message": "Pranešimų ženkleliai"
+  },
+  "hideReactions": {
+    "message": "Reakcijų skaičius"
+  },
+  "hideComments": {
+    "message": "Komentarų skaičius"
+  },
+  "hideReposts": {
+    "message": "Pasidalijimų skaičius"
+  },
+  "hideCounts": {
+    "message": "Sekėjų ir kontaktų sumos"
+  },
+  "hideViewed": {
+    "message": "Kas peržiūrėjo jūsų profilį"
+  },
+  "hideSuggestions": {
+    "message": "Žmonės, kuriuos galbūt pažįstate"
+  },
+  "hideTrending": {
+    "message": "Populiarus turinys"
+  },
+  "scheduledFocus": {
+    "message": "Suplanuotas susikaupimas"
+  },
+  "customSelector": {
+    "message": "Pasirinktinio selektoriaus slėpimas"
+  },
+  "syncToggles": {
+    "message": "Sinchronizuoti tarp įrenginių"
+  },
+  "advancedGrayscale": {
+    "message": "Išplėstinis pritemdymas ir ryškumas"
+  },
+  "upgradePro": {
+    "message": "Atnaujinti į Pro"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "extName": {
+    "message": "LinkedIn Demetricator — ซ่อนตัวเลขและป้าย",
+    "description": "Extension name"
+  },
+  "extDesc": {
+    "message": "ซ่อนป้าย LinkedIn จำนวนรีแอกชัน ยอดผู้ติดตาม และ \"ใครดูคุณ\" ใช้ CSS ล้วน ทำงานในเครื่อง 100% ไม่ส่งข้อมูลไปที่ใด",
+    "description": "Extension description"
+  },
+  "focusMode": {
+    "message": "โหมดโฟกัส"
+  },
+  "focusModeSub": {
+    "message": "เฉพาะฟีด ไม่มีสิ่งรบกวน"
+  },
+  "hideBadges": {
+    "message": "ป้ายการแจ้งเตือน"
+  },
+  "hideReactions": {
+    "message": "จำนวนรีแอกชัน"
+  },
+  "hideComments": {
+    "message": "จำนวนความคิดเห็น"
+  },
+  "hideReposts": {
+    "message": "จำนวนการรีโพสต์"
+  },
+  "hideCounts": {
+    "message": "ยอดผู้ติดตามและการเชื่อมต่อ"
+  },
+  "hideViewed": {
+    "message": "ใครดูโปรไฟล์ของคุณ"
+  },
+  "hideSuggestions": {
+    "message": "คนที่คุณอาจรู้จัก"
+  },
+  "hideTrending": {
+    "message": "เนื้อหายอดนิยม"
+  },
+  "scheduledFocus": {
+    "message": "โฟกัสตามกำหนดเวลา"
+  },
+  "customSelector": {
+    "message": "ซ่อนด้วยตัวเลือกที่กำหนดเอง"
+  },
+  "syncToggles": {
+    "message": "ซิงค์ข้ามอุปกรณ์"
+  },
+  "advancedGrayscale": {
+    "message": "การหรี่แสงและความสว่างขั้นสูง"
+  },
+  "upgradePro": {
+    "message": "อัปเกรดเป็น Pro"
+  }
+}

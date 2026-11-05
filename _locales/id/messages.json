@@ -1,0 +1,55 @@
+{
+  "extName": {
+    "message": "LinkedIn Demetricator — Sembunyikan Angka & Lencana",
+    "description": "Extension name"
+  },
+  "extDesc": {
+    "message": "Sembunyikan lencana, reaksi, total pengikut & \"siapa melihat Anda\" di LinkedIn. CSS murni, 100% lokal, tanpa kirim data.",
+    "description": "Extension description"
+  },
+  "focusMode": {
+    "message": "Mode fokus"
+  },
+  "focusModeSub": {
+    "message": "Hanya feed. Tanpa gangguan."
+  },
+  "hideBadges": {
+    "message": "Lencana notifikasi"
+  },
+  "hideReactions": {
+    "message": "Jumlah reaksi"
+  },
+  "hideComments": {
+    "message": "Jumlah komentar"
+  },
+  "hideReposts": {
+    "message": "Jumlah posting ulang"
+  },
+  "hideCounts": {
+    "message": "Total pengikut & koneksi"
+  },
+  "hideViewed": {
+    "message": "Siapa yang melihat profil Anda"
+  },
+  "hideSuggestions": {
+    "message": "Orang yang mungkin Anda kenal"
+  },
+  "hideTrending": {
+    "message": "Konten yang sedang tren"
+  },
+  "scheduledFocus": {
+    "message": "Fokus terjadwal"
+  },
+  "customSelector": {
+    "message": "Sembunyikan dengan pemilih khusus"
+  },
+  "syncToggles": {
+    "message": "Sinkronkan di seluruh perangkat"
+  },
+  "advancedGrayscale": {
+    "message": "Peredupan & kecerahan lanjutan"
+  },
+  "upgradePro": {
+    "message": "Tingkatkan ke Pro"
+  }
+}

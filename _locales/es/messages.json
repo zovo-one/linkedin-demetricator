@@ -1,0 +1,55 @@
+{
+  "extName": {
+    "message": "LinkedIn Demetricator — Oculta cifras e insignias",
+    "description": "Extension name"
+  },
+  "extDesc": {
+    "message": "Oculta insignias de LinkedIn, recuentos de reacciones, seguidores y \"quién vio tu perfil\". CSS puro, 100% local, sin enviar datos.",
+    "description": "Extension description"
+  },
+  "focusMode": {
+    "message": "Modo enfoque"
+  },
+  "focusModeSub": {
+    "message": "Solo el feed. Sin distracciones."
+  },
+  "hideBadges": {
+    "message": "Insignias de notificación"
+  },
+  "hideReactions": {
+    "message": "Recuentos de reacciones"
+  },
+  "hideComments": {
+    "message": "Recuentos de comentarios"
+  },
+  "hideReposts": {
+    "message": "Recuentos de republicaciones"
+  },
+  "hideCounts": {
+    "message": "Totales de seguidores y contactos"
+  },
+  "hideViewed": {
+    "message": "Quién vio tu perfil"
+  },
+  "hideSuggestions": {
+    "message": "Personas que quizás conozcas"
+  },
+  "hideTrending": {
+    "message": "Contenido en tendencia"
+  },
+  "scheduledFocus": {
+    "message": "Enfoque programado"
+  },
+  "customSelector": {
+    "message": "Ocultar con selector personalizado"
+  },
+  "syncToggles": {
+    "message": "Sincronizar entre dispositivos"
+  },
+  "advancedGrayscale": {
+    "message": "Atenuación y brillo avanzados"
+  },
+  "upgradePro": {
+    "message": "Actualizar a Pro"
+  }
+}

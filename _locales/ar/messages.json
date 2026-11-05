@@ -1,0 +1,55 @@
+{
+  "extName": {
+    "message": "LinkedIn Demetricator — إخفاء الأعداد والشارات",
+    "description": "Extension name"
+  },
+  "extDesc": {
+    "message": "أخفِ شارات LinkedIn وأعداد التفاعلات وإجماليات المتابعين و\"من شاهد ملفك\". CSS خالص، محلي 100%، لا تُرسَل أي بيانات إلى أي مكان.",
+    "description": "Extension description"
+  },
+  "focusMode": {
+    "message": "وضع التركيز"
+  },
+  "focusModeSub": {
+    "message": "الخلاصة فقط. بلا مشتتات."
+  },
+  "hideBadges": {
+    "message": "شارات الإشعارات"
+  },
+  "hideReactions": {
+    "message": "أعداد التفاعلات"
+  },
+  "hideComments": {
+    "message": "أعداد التعليقات"
+  },
+  "hideReposts": {
+    "message": "أعداد إعادة النشر"
+  },
+  "hideCounts": {
+    "message": "إجماليات المتابعين والاتصالات"
+  },
+  "hideViewed": {
+    "message": "من شاهد ملفك الشخصي"
+  },
+  "hideSuggestions": {
+    "message": "أشخاص قد تعرفهم"
+  },
+  "hideTrending": {
+    "message": "المحتوى الرائج"
+  },
+  "scheduledFocus": {
+    "message": "تركيز مجدول"
+  },
+  "customSelector": {
+    "message": "إخفاء بمُحدِّد مخصص"
+  },
+  "syncToggles": {
+    "message": "المزامنة عبر الأجهزة"
+  },
+  "advancedGrayscale": {
+    "message": "تعتيم وسطوع متقدمان"
+  },
+  "upgradePro": {
+    "message": "الترقية إلى Pro"
+  }
+}

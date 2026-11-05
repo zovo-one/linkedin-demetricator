@@ -1,0 +1,55 @@
+{
+  "extName": {
+    "message": "LinkedIn Demetricator — কাউন্ট ও ব্যাজ লুকান",
+    "description": "Extension name"
+  },
+  "extDesc": {
+    "message": "LinkedIn ব্যাজ, রিঅ্যাকশন কাউন্ট, ফলোয়ার সংখ্যা ও \"কে আপনাকে দেখেছে\" লুকান। বিশুদ্ধ CSS, ১০০% লোকাল, ডেটা কোথাও যায় না।",
+    "description": "Extension description"
+  },
+  "focusMode": {
+    "message": "ফোকাস মোড"
+  },
+  "focusModeSub": {
+    "message": "শুধু ফিড। কোনো বিক্ষেপ নেই।"
+  },
+  "hideBadges": {
+    "message": "নোটিফিকেশন ব্যাজ"
+  },
+  "hideReactions": {
+    "message": "রিঅ্যাকশন কাউন্ট"
+  },
+  "hideComments": {
+    "message": "কমেন্ট কাউন্ট"
+  },
+  "hideReposts": {
+    "message": "রিপোস্ট কাউন্ট"
+  },
+  "hideCounts": {
+    "message": "ফলোয়ার ও কানেকশন সংখ্যা"
+  },
+  "hideViewed": {
+    "message": "কে আপনার প্রোফাইল দেখেছে"
+  },
+  "hideSuggestions": {
+    "message": "যাদের আপনি চিনতে পারেন"
+  },
+  "hideTrending": {
+    "message": "ট্রেন্ডিং কনটেন্ট"
+  },
+  "scheduledFocus": {
+    "message": "নির্ধারিত ফোকাস"
+  },
+  "customSelector": {
+    "message": "কাস্টম সিলেক্টর হাইড"
+  },
+  "syncToggles": {
+    "message": "ডিভাইসের মধ্যে সিঙ্ক"
+  },
+  "advancedGrayscale": {
+    "message": "উন্নত ডিম ও ব্রাইটনেস"
+  },
+  "upgradePro": {
+    "message": "Pro-তে আপগ্রেড"
+  }
+}
